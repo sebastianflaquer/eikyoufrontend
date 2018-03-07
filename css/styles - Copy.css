@@ -1,0 +1,204 @@
+/**********************************************/
+/* GENERAL                                    */
+/**********************************************/
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+ul, li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.btn-back-to-top{
+    color:#54505D;
+    margin: auto;
+    display: block;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+/**********************************************/
+/* MAIN HEADER                                */
+/**********************************************/
+.main-heaader{
+
+}
+
+
+.sec-top-head{
+    height: 100px;
+    overflow: hidden;
+    background-color: #4F4A58;
+}
+
+
+.logo{
+    float: left;
+    background-color: #DCCDCD;
+    display: block;
+    width: 160px;
+    height: 100%;
+    text-align: center;
+    padding:
+}
+
+.logo h1{
+    font-size: 25px;
+}
+
+
+/***********************************************/
+.md-brand-head{
+    display: block;
+    float: left;
+    padding: 0 30px;
+    height: 100%;
+}
+
+.md-brand-head h2{
+    display: block;
+    margin-bottom: 10px;
+    color:#fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+.md-brand-head p{
+    color:#fff;
+    font-size: 12px;
+}
+
+/**************************************************/
+.md-top-menu{
+    background-color:#45414E;
+    float:right;
+    height: 100%;
+}
+
+.md-top-menu ul li{
+    float: left;
+    padding: 20px;
+    float: left;
+    padding: 40px 25px;
+}
+.md-top-menu ul li a{
+    color:#fff;
+    font-size: 12px;
+}
+
+/**************************************************/
+.sec-main-menu{
+    background-color: #fff;
+}
+
+.md-primary-menu{
+    text-align: center;
+    border-bottom: 1px solid #F2F1F3;
+}
+
+.md-primary-menu li{
+    display: inline-block;
+ }
+
+ .md-primary-menu li a.active,
+ .md-primary-menu li a:hover{
+     background-color:#F5F7F9;
+     text-decoration: none;
+ }
+
+ .md-primary-menu li a.active{
+     font-weight: bold;
+ }
+
+.md-primary-menu li a{
+    display: block;
+    padding: 15px 25px;
+    color:#1D1628;
+    font-size: 15px;
+}
+
+/*******************************************************/
+.md-sub-menu{
+    text-align: center;
+}
+.md-sub-menu li{
+    display: inline-block;
+}
+.md-sub-menu li a{
+    display: block;
+    color:#1D1628;
+    font-size: 15px;
+    padding: 15px 25px;
+}
+
+.md-sub-menu li a.active,
+.md-sub-menu li a:hover{
+    background-color:#F5F7F9;
+    text-decoration: none;
+}
+
+.md-sub-menu li a.active{
+    font-weight: bold;
+}
+
+/******************************************************/
+.main-cont{
+    border-top: 1px solid #F2F1F3;
+    background-color:#F5F7F9;
+    padding: 20px;
+}
+
+/********************************************************/
+
+.md-sidebar-menu{}
+.md-sidebar-menu li{
+    border-bottom: 1px solid #D6D8DE;
+}
+.md-sidebar-menu li a{
+    display: block;
+    padding: 12px 0;
+    color:#1D1628;
+    font-size: 14px;
+}
+
+.md-sidebar-menu li a.active{
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+
+/************************************************************/
+.cont-info-page{
+    background-color: #fff;
+    padding: 25px;
+}
+
+/************************************************************/
+.md-primary-data .hd{}
+.md-primary-data .hd h2{
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+
+.md-big-num{
+    text-align: center;
+}
+.md-big-num h3{
+    font-size: 58px;
+}
+.md-big-num p{
+    font-size: 17px;
+}
+
+
+.md-primary-data .bd{}
+.md-primary-data .bd{}
+.md-primary-data .bd{}
+.md-primary-data .bd{}
+.md-primary-data .bd{}
