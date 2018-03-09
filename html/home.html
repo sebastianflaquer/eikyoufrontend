@@ -12,12 +12,15 @@
     <title>Eikyou Home</title>
 
     <!-- FONTS -->
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700" rel="stylesheet">
+
     <!-- END FONTS -->
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../css/dashboard.css">
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/general.css">
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/home.css">
     <link rel="stylesheet" type="text/css" href="../css/styles.css">
     <!-- END CSS -->
 
@@ -34,7 +37,7 @@
 </head>
 <body>
 
-    <div class="container">
+    <div id="top" class="container-eikyou">
         <header class="main-header">
             <!-- SEC TOP HEAD -->
             <div class="sec-top-head">
@@ -98,43 +101,290 @@
                 <div class="col-sm-9 col-md-9">
                     <div class="cont-info-page">
 
-                        <!-- -->
-                        <div class="md-primary-data">
+                        <!-- PRIMARY DATA -->
+                        <div class="md-mu md-primary-data">
                             <div class="hd">
                                 <h2>GENERAL STATISTICS</h2>
                             </div>
                             <div class="bd">
-                                <div class="col-1">
-                                    <div class="md-big-num">
-                                        <h3>17.5 M</h3>
-                                        <p>Followers</p>
+                                <div class="row">
+                                    <div class="col-md-4 col-1">
+                                        <div class="md-big-num">
+                                            <h3>17.5 M</h3>
+                                            <p><i class="ico ico-follow"></i>Followers</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-2">
+                                        <div class="md-big-num">
+                                            <h3>3,037</h3>
+                                            <p><i class="ico ico-post"></i>Posts</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-3">
+                                        <div class="md-big-num">
+                                            <h3>2.3 M</h3>
+                                            <p><i class="ico ico-likes"></i>Likes</p>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-2">
-                                    <div class="md-big-num">
-                                        <h3>3,037</h3>
-                                        <p>Posts</p>
+                                <div class="row">
+                                    <div class="col-md-5">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="col-md-6">
+
+                                        </div>
+                                        <div class="col-md-6">
+
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-3">
-                                    <div class="md-big-num">
-                                        <h3>2.3 M</h3>
-                                        <p>Likes</p>
+
+                            </div>
+                        </div>
+                        <!-- PRIMARY DATA END -->
+
+                        <!-- CONTENT TYPE AND ENGAGEMENT -->
+                        <div class="md-mu md-content-engagement">
+                            <div class="hd">
+                                <h2>CONTENT TYPE AND ENGAGEMENT</h2>
+                            </div>
+                            <div class="bd">
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        TABLA DATOS
+                                    </div>
+                                    <div class="col-md-5">
+                                        GRAFICA
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        FOOTER
                                     </div>
                                 </div>
                             </div>
+                            <div class="ft">
+
+                            </div>
                         </div>
+                        <!-- END -->
+
+                        <!-- BEST POST PERFORMANCE -->
+                        <div class="md-mu md-post-performance">
+                            <div class="hd">
+                                <h2>BEST POST PERFORMANCE</h2>
+                            </div>
+                            <div class="bd">
+                                <div class="tab-menu">
+                                    <ul>
+                                        <li><a href="#">Per Category</a></li>
+                                        <li><a href="#">of UGC</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="tab-content">
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <div class="post-items">
+                                                <div class="img">
+                                                    <img src="https://dummyimage.com/173/333/ffffff" /a>
+                                                </div>
+                                                <div class="data">
+                                                    <table>
+                                                        <tr>
+                                                            <td class="align-l">Category</td>
+                                                            <td class="align-r">Video</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Engagement</td>
+                                                            <td>1,13%</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Likes</td>
+                                                            <td>542</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Comments</td>
+                                                            <td>142</td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="post-items">
+                                                <div class="img">
+                                                    <img src="https://dummyimage.com/173/333/ffffff" /a>
+                                                </div>
+                                                <div class="data">
+                                                    <table>
+                                                        <tr>
+                                                            <td>Category</td>
+                                                            <td>Video</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Engagement</td>
+                                                            <td>1,13%</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Likes</td>
+                                                            <td>542</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Comments</td>
+                                                            <td>142</td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="post-items">
+                                                <div class="img">
+                                                    <img src="https://dummyimage.com/173/333/ffffff" /a>
+                                                </div>
+                                                <div class="data">
+                                                    <table>
+                                                        <tr>
+                                                            <td>Category</td>
+                                                            <td>Video</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Engagement</td>
+                                                            <td>1,13%</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Likes</td>
+                                                            <td>542</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Comments</td>
+                                                            <td>142</td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="post-items">
+                                                <div class="img">
+                                                    <img src="https://dummyimage.com/173/333/ffffff" /a>
+                                                </div>
+                                                <div class="data">
+                                                    <table>
+                                                        <tr>
+                                                            <td>Category</td>
+                                                            <td>Video</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Engagement</td>
+                                                            <td>1,13%</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Likes</td>
+                                                            <td>542</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Comments</td>
+                                                            <td>142</td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="post-items">
+                                                <div class="img">
+                                                    <img src="https://dummyimage.com/173/333/ffffff" /a>
+                                                </div>
+                                                <div class="data">
+                                                    <table>
+                                                        <tr>
+                                                            <td>Category</td>
+                                                            <td>Video</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Engagement</td>
+                                                            <td>1,13%</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Likes</td>
+                                                            <td>542</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Comments</td>
+                                                            <td>142</td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="ft">
+
+                            </div>
+                        </div>
+                        <!-- END -->
+
+
+                        <!-- COMPARE BRANDS -->
+                        <div class="md-mu md-comparebrands">
+                            <div class="hd">
+                                <h2>COMPARE BRANDS</h2>
+                            </div>
+                            <div class="bd">
+                                <div class="tab-menu">
+                                    <ul>
+                                        <li><a href="#">Content and Engagement</a></li>
+                                        <li><a href="#">Brand rankings</a></li>
+                                        <li><a href="#">Best Post</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="ft">
+                            </div>
+                        </div>
+                        <!-- END -->
+
+                        <!-- ENGAGEMENT BY DAY AND CATEGORY -->
+                        <div class="md-mu md-engagement-day-category">
+                            <div class="hd">
+                                <h2>ENGAGEMENT BY DAY AND CATEGORY</h2>
+                            </div>
+                            <div class="bd">
+                                <div class="time-slider">
+                                    <span>Whole week</span>
+                                </div>
+                                <div class="">
+                                    GRAFICA
+                                </div>
+                            </div>
+                            <div class="ft">
+
+                            </div>
+                        </div>
+                        <!-- END -->
 
                     </div>
                 </div>
 
             </div>
 
-            <a href="#" class="btn-back-to-top">Back to top</a>
+            <a href="#top" class="btn-back-to-top">Back to top</a>
 
         </div>
 
     </div>
+
+    <!-- <div class="row">
+    </div> -->
 
 
 

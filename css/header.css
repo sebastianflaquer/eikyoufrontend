@@ -1,0 +1,93 @@
+/**********************************************/
+/* MAIN HEADER                                */
+/**********************************************/
+.main-header .sec-top-head {
+  height: 100px;
+  overflow: hidden;
+  background-color: #4F4A58; }
+
+.main-header .logo {
+  float: left;
+  background-color: #DCCDCD;
+  display: block;
+  width: 160px;
+  height: 100%;
+  text-align: center;
+  padding: 37px 0; }
+  .main-header .logo h1 {
+    font-size: 25px; }
+
+/***********************************************/
+.md-brand-head {
+  display: block;
+  float: left;
+  padding: 30px;
+  height: 100%; }
+  .md-brand-head h2 {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px; }
+  .md-brand-head p {
+    color: #fff;
+    font-size: 12px; }
+
+/**************************************************/
+.md-top-menu {
+  background-color: #45414E;
+  float: right;
+  height: 100%;
+  padding-left: 30px; }
+  .md-top-menu ul li {
+    float: left;
+    padding: 20px;
+    float: left;
+    padding: 40px 25px; }
+    .md-top-menu ul li a {
+      color: #fff;
+      font-size: 12px; }
+
+/**************************************************/
+.sec-main-menu {
+  background-color: #fff; }
+
+.md-primary-menu {
+  text-align: center;
+  border-bottom: 1px solid #F2F1F3; }
+  .md-primary-menu li {
+    display: inline-block; }
+    .md-primary-menu li a {
+      display: block;
+      padding: 15px 25px;
+      color: #1D1628;
+      font-size: 15px; }
+      .md-primary-menu li a.active {
+        font-weight: bold; }
+
+.md-primary-menu li a.active,
+.md-primary-menu li a:hover {
+  background-color: #F5F7F9;
+  text-decoration: none; }
+
+/*******************************************************/
+.md-sub-menu {
+  text-align: center; }
+
+.md-sub-menu li {
+  display: inline-block; }
+
+.md-sub-menu li a {
+  display: block;
+  color: #1D1628;
+  font-size: 15px;
+  padding: 15px 25px; }
+
+.md-sub-menu li a.active,
+.md-sub-menu li a:hover {
+  background-color: #F5F7F9;
+  text-decoration: none; }
+
+.md-sub-menu li a.active {
+  font-weight: bold; }

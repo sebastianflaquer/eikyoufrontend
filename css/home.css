@@ -1,0 +1,84 @@
+/******************************************************/
+.main-cont {
+  border-top: 1px solid #F2F1F3;
+  background-color: #F5F7F9;
+  padding: 20px; }
+
+.md-mu {
+  padding: 50px 0; }
+  .md-mu .hd {
+    text-align: center;
+    margin-bottom: 20px; }
+    .md-mu .hd h2 {
+      text-align: center;
+      font-size: 15px;
+      letter-spacing: 4px; }
+
+/********************************************************/
+.md-sidebar-menu li {
+  border-bottom: 1px solid #D6D8DE; }
+
+.md-sidebar-menu li a {
+  display: block;
+  padding: 12px 0;
+  color: #1D1628;
+  font-size: 14px; }
+
+.md-sidebar-menu li a.active {
+  padding-left: 15px;
+  font-weight: bold; }
+
+/************************************************************/
+.cont-info-page {
+  background-color: #fff;
+  padding: 25px; }
+
+/************************************************************/
+.md-primary-data .hd h2 {
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 4px; }
+
+.md-big-num {
+  text-align: center; }
+
+.md-big-num h3 {
+  font-size: 58px; }
+
+.md-big-num p {
+  font-size: 17px; }
+
+/***************************************************************/
+/* TAB MENU                                                    */
+/***************************************************************/
+.tab-menu ul {
+  text-align: center;
+  border-bottom: 1px solid #F2F1F3; }
+  .tab-menu ul li {
+    display: inline-block; }
+    .tab-menu ul li a {
+      display: block;
+      padding: 15px 25px;
+      color: #1D1628;
+      font-size: 15px; }
+      .tab-menu ul li a.active {
+        font-weight: bold; }
+      .tab-menu ul li a:hover, .tab-menu ul li a.active {
+        background-color: #F5F7F9;
+        text-decoration: none; }
+
+/***************************************************************/
+/* POST ITEMS                                                  */
+/***************************************************************/
+.post-items .img {
+  width: 100%; }
+  .post-items .img img {
+    display: block;
+    width: 100%; }
+
+.post-items .data table {
+  width: 100%; }
+  .post-items .data table tr td {
+    width: 50%; }
+    .post-items .data table tr td + td {
+      text-align: right; }
