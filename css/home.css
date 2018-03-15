@@ -40,13 +40,12 @@
   letter-spacing: 4px; }
 
 .md-big-num {
-  text-align: center; }
-
-.md-big-num h3 {
-  font-size: 58px; }
-
-.md-big-num p {
-  font-size: 17px; }
+  text-align: center;
+  padding: 40px 0 60px 0; }
+  .md-big-num h3 {
+    font-size: 58px; }
+  .md-big-num p {
+    font-size: 17px; }
 
 /***************************************************************/
 /* TAB MENU                                                    */
@@ -111,3 +110,73 @@
       font-family: 'proxima_nova_altbold'; }
   .post-items .data-alt table tr.alt {
     background-color: #F6F7F9; }
+
+/***************************************************************/
+/* SEC AVG GROUP                                               */
+/***************************************************************/
+.sec-container-group {
+  margin-left: -25px;
+  margin-right: -25px; }
+
+.sec-avg-group,
+.sec-user-group,
+.sec-most-post {
+  padding: 30px; }
+
+.sec-group {
+  display: block;
+  margin: 0;
+  border: 0;
+  float: left;
+  min-height: 301px; }
+  .sec-group .title {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Proxima Nova', sans-serif; }
+  .sec-group .btm {
+    border-top: 1px solid #D2DEDE; }
+
+.sec-avg-group {
+  width: 40%;
+  background-color: #E1F0ED; }
+  .sec-avg-group .btm {
+    border-top: 1px solid #D2DEDE;
+    overflow: hidden; }
+    .sec-avg-group .btm .md-block-data {
+      text-align: center;
+      padding: 40px 0px 20px 0px;
+      width: 50%;
+      display: block;
+      float: left; }
+      .sec-avg-group .btm .md-block-data:first-child {
+        border-right: 1px solid #D2DEDE; }
+      .sec-avg-group .btm .md-block-data h3 {
+        margin-bottom: 30px; }
+      .sec-avg-group .btm .md-block-data .col-1 {
+        padding: 0 10px;
+        border-right: 1px solid #D2DEDE; }
+      .sec-avg-group .btm .md-block-data .col-2 {
+        padding: 0 10px; }
+
+.sec-user-group {
+  width: 25%;
+  background-color: #DDE6ED; }
+  .sec-user-group .md-block-data {
+    text-align: center; }
+
+.sec-most-post {
+  width: 35%;
+  background-color: #F4F6F8; }
+  .sec-most-post .md-block-data {
+    text-align: center; }
+
+.md-block-data .col-1 {
+  display: inline-table; }
+
+.md-block-data .col-2 {
+  display: inline-table; }
+
+/******************************************/
+/* MORE INFO                              */
+/******************************************/
