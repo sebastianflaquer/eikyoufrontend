@@ -4,7 +4,7 @@
 body{
     font-family: 'Proxima Nova', sans-serif;
     font-size: 100%/13px;
-
+    color:#4C4B50;
 }
 
 ul, li{
@@ -86,19 +86,6 @@ ul, li{
 }
 
 @font-face {
-    font-family: 'proxima_nova_ltsemibold';
-    src: url('../fonts/proximanova/Mark Simonson - Proxima Nova Semibold-webfont.eot');
-    src: url('../fonts/proximanova/Mark Simonson - Proxima Nova Semibold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/proximanova/Mark Simonson - Proxima Nova Semibold-webfont.woff2') format('woff2'),
-         url('../fonts/proximanova/Mark Simonson - Proxima Nova Semibold-webfont.woff') format('woff'),
-         url('../fonts/proximanova/Mark Simonson - Proxima Nova Semibold-webfont.ttf') format('truetype'),
-         url('../fonts/proximanova/Mark Simonson - Proxima Nova Semibold-webfont.svg#proxima_nova_ltsemibold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-@font-face {
     font-family: 'proxima_nova_ltthin';
     src: url('../fonts/proximanova/Mark Simonson - Proxima Nova Thin-webfont.eot');
     src: url('../fonts/proximanova/Mark Simonson - Proxima Nova Thin-webfont.eot?#iefix') format('embedded-opentype'),
@@ -106,6 +93,18 @@ ul, li{
          url('../fonts/proximanova/Mark Simonson - Proxima Nova Thin-webfont.woff') format('woff'),
          url('../fonts/proximanova/Mark Simonson - Proxima Nova Thin-webfont.ttf') format('truetype'),
          url('../fonts/proximanova/Mark Simonson - Proxima Nova Thin-webfont.svg#proxima_nova_ltthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima_nova_ltsemibold';
+    src: url('../fonts/proximanova/Mark Simonson - Proxima Nova Semibold-webfont.eot');
+    src: url('../fonts/proximanova/Mark Simonson - Proxima Nova Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova/Mark Simonson - Proxima Nova Semibold-webfont.woff2') format('woff2'),
+         url('../fonts/proximanova/Mark Simonson - Proxima Nova Semibold-webfont.woff') format('woff'),
+         url('../fonts/proximanova/Mark Simonson - Proxima Nova Semibold-webfont.ttf') format('truetype'),
+         url('../fonts/proximanova/Mark Simonson - Proxima Nova Semibold-webfont.svg#proxima_nova_ltsemibold') format('svg');
     font-weight: normal;
     font-style: normal;
 }

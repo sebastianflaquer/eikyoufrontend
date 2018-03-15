@@ -68,7 +68,7 @@
 .tab-menu{
     ul{
         text-align: center;
-        border-bottom: 1px solid #F2F1F3;
+        border-bottom: 1px solid #DCDCDC;
         li{
             display: inline-block;
             a{
@@ -89,26 +89,66 @@
     }
 }
 
+.tab-content{
+    margin-top: 40px;
+}
+
+
 /***************************************************************/
 /* POST ITEMS                                                  */
 /***************************************************************/
+
+
 .post-items{
     .img{
         width: 100%;
+        margin-bottom: 15px;
         img{
+            border-radius: 10px;
             display:block;
             width: 100%;
         }
     }
     .data{
+        margin-bottom: 20px;
+        border-bottom: 1px solid #DCDCDC;
+        padding-bottom: 20px;
         table{
             width: 100%;
             tr{
                 td{
+                    padding: 5px;
+                    font-size: 13px;
+                    font-family: "proxima_nova_ltsemibold";
                     width: 50%;
                     & + td{
                         text-align: right;
+                        font-family: 'proxima_nova_altbold';
                     }
+                }
+                &.alt{
+                    background-color: #F6F7F9;
+                }
+            }
+        }
+    }
+    .data-alt{
+        table{
+            width: 100%;
+            tr{
+                td{
+                    padding: 5px;
+                    font-size: 13px;
+                    font-family: "proxima_nova_ltsemibold";
+                    width: 20%;
+                    & + td{
+                        width: 80%;
+                        text-align: right;
+                        font-family: 'proxima_nova_altbold';
+                    }
+                }
+                &.alt{
+                    background-color: #F6F7F9;
                 }
             }
         }

@@ -53,7 +53,7 @@
 /***************************************************************/
 .tab-menu ul {
   text-align: center;
-  border-bottom: 1px solid #F2F1F3; }
+  border-bottom: 1px solid #DCDCDC; }
   .tab-menu ul li {
     display: inline-block; }
     .tab-menu ul li a {
@@ -67,18 +67,47 @@
         background-color: #F5F7F9;
         text-decoration: none; }
 
+.tab-content {
+  margin-top: 40px; }
+
 /***************************************************************/
 /* POST ITEMS                                                  */
 /***************************************************************/
 .post-items .img {
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 15px; }
   .post-items .img img {
+    border-radius: 10px;
     display: block;
     width: 100%; }
 
-.post-items .data table {
+.post-items .data {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #DCDCDC;
+  padding-bottom: 20px; }
+  .post-items .data table {
+    width: 100%; }
+    .post-items .data table tr td {
+      padding: 5px;
+      font-size: 13px;
+      font-family: "proxima_nova_ltsemibold";
+      width: 50%; }
+      .post-items .data table tr td + td {
+        text-align: right;
+        font-family: 'proxima_nova_altbold'; }
+    .post-items .data table tr.alt {
+      background-color: #F6F7F9; }
+
+.post-items .data-alt table {
   width: 100%; }
-  .post-items .data table tr td {
-    width: 50%; }
-    .post-items .data table tr td + td {
-      text-align: right; }
+  .post-items .data-alt table tr td {
+    padding: 5px;
+    font-size: 13px;
+    font-family: "proxima_nova_ltsemibold";
+    width: 20%; }
+    .post-items .data-alt table tr td + td {
+      width: 80%;
+      text-align: right;
+      font-family: 'proxima_nova_altbold'; }
+  .post-items .data-alt table tr.alt {
+    background-color: #F6F7F9; }
