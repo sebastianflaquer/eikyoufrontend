@@ -128,19 +128,37 @@
   margin: 0;
   border: 0;
   float: left;
-  min-height: 301px; }
+  height: 300px; }
   .sec-group .title {
     display: block;
     text-align: center;
     font-size: 15px;
     font-family: 'Proxima Nova', sans-serif; }
+  .sec-group .top {
+    padding-bottom: 20px; }
   .sec-group .btm {
+    padding: 20px 20px 0 20px;
     border-top: 1px solid #D2DEDE; }
+  .sec-group .fot {
+    padding-top: 20px; }
 
 .sec-avg-group {
   width: 40%;
   background-color: #E1F0ED; }
+  .sec-avg-group .top {
+    overflow: hidden; }
+    .sec-avg-group .top .f-left {
+      text-align: left;
+      float: left;
+      width: 30%; }
+      .sec-avg-group .top .f-left .title {
+        text-align: left; }
+    .sec-avg-group .top .f-right {
+      text-align: right;
+      float: left;
+      width: 70%; }
   .sec-avg-group .btm {
+    padding-top: 0px;
     border-top: 1px solid #D2DEDE;
     overflow: hidden; }
     .sec-avg-group .btm .md-block-data {
@@ -159,17 +177,35 @@
       .sec-avg-group .btm .md-block-data .col-2 {
         padding: 0 10px; }
 
+.more-info {
+  margin: auto;
+  text-align: center; }
+  .more-info a {
+    display: block;
+    color: #1D1628; }
+  .more-info i {
+    font-size: 22px;
+    position: relative;
+    margin-right: 7px;
+    top: 3px; }
+
 .sec-user-group {
   width: 25%;
   background-color: #DDE6ED; }
   .sec-user-group .md-block-data {
     text-align: center; }
+    .sec-user-group .md-block-data .title {
+      margin-bottom: 15px; }
 
 .sec-most-post {
   width: 35%;
   background-color: #F4F6F8; }
   .sec-most-post .md-block-data {
     text-align: center; }
+  .sec-most-post .title {
+    margin-bottom: 30px; }
+  .sec-most-post .btm {
+    padding-top: 30px; }
 
 .md-block-data .col-1 {
   display: inline-table; }
@@ -180,3 +216,83 @@
 /******************************************/
 /* MORE INFO                              */
 /******************************************/
+/******************************************/
+/* CONTENT ENGAGEMENT                     */
+/******************************************/
+.md-content-engagement .bd table {
+  width: 100%; }
+  .md-content-engagement .bd table tr.line td {
+    border-bottom: 1px solid #eee; }
+  .md-content-engagement .bd table tr.line.last-child td {
+    border-bottom: 0; }
+  .md-content-engagement .bd table tr th {
+    padding: 0 10px; }
+    .md-content-engagement .bd table tr th span {
+      font-size: 11px;
+      color: #ccc; }
+  .md-content-engagement .bd table tr td {
+    padding: 0 10px; }
+    .md-content-engagement .bd table tr td span {
+      display: block;
+      padding: 16px 0 14px;
+      font-size: 18px;
+      font-weight: bold; }
+
+.md-content-engagement .bd .name {
+  font-size: 13px;
+  font-weight: bold; }
+
+.md-content-engagement .bd .last {
+  font-size: 13px;
+  font-weight: bold;
+  color: #ccc; }
+
+.md-content-engagement .bd .theader th {
+  padding-bottom: 10px; }
+
+.md-content-engagement .bd .color {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  position: relative;
+  top: 3px; }
+  .md-content-engagement .bd .color.video {
+    background-color: #E1F0ED; }
+  .md-content-engagement .bd .color.portrait {
+    background-color: #DDE6ED; }
+  .md-content-engagement .bd .color.product {
+    background-color: #DCCDCD; }
+  .md-content-engagement .bd .color.extra {
+    background-color: #D7C0C9; }
+  .md-content-engagement .bd .color.closeup {
+    background-color: #C4D6E3; }
+
+/******************************************/
+/* USER GENERATED CONTENT                 */
+/******************************************/
+.c-and-e-ft-data {
+  margin-top: 25px; }
+  .c-and-e-ft-data h3 {
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 14px; }
+  .c-and-e-ft-data .bd {
+    border: 1px solid #ccc;
+    padding: 20px 30px; }
+    .c-and-e-ft-data .bd .col-1 {
+      overflow: hidden; }
+      .c-and-e-ft-data .bd .col-1 span {
+        float: left;
+        font-size: 45px; }
+      .c-and-e-ft-data .bd .col-1 .right-col {
+        float: left; }
+        .c-and-e-ft-data .bd .col-1 .right-col span {
+          font-size: 15px; }
+        .c-and-e-ft-data .bd .col-1 .right-col .progressbar {
+          height: 10px;
+          width: 100%;
+          background-color: #ddd; }
+          .c-and-e-ft-data .bd .col-1 .right-col .progressbar .bar {
+            background-color: red;
+            height: 10px; }

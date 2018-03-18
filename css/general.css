@@ -17,7 +17,14 @@ ul, li {
   display: block;
   width: 150px;
   text-align: center;
-  font-weight: bold; }
+  font-weight: bold;
+  margin: 30px auto 10px;
+  font-size: 15px; }
+  .btn-back-to-top i {
+    font-size: 32px;
+    position: relative;
+    top: 6px;
+    margin-right: 10px; }
 
 .align-r {
   text-align: right; }
@@ -25,8 +32,11 @@ ul, li {
 .align-l {
   text-align: left; }
 
-.xs-font {
+.xxs-font {
   font-size: 12px; }
+
+.xs-font {
+  font-size: 19px; }
 
 .s-font {
   font-size: 25px; }

@@ -16,9 +16,19 @@
 		width: 160px;
 		height: 100%;
 		text-align: center;
-		padding: 37px 0;
 		h1{
 			font-size: 25px;
+			a{
+				display: block;
+				padding: 31px 25px;
+				span{
+					display: none;
+
+				}
+				img{
+					width: 100%;
+				}
+			}
 		}
 	}
 }
