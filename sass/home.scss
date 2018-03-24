@@ -152,6 +152,27 @@
     }
 }
 
+
+/* GRIDS TABLES */
+.table-style{
+    tr{
+        td{
+            padding: 5px!important;
+            font-size: 13px;
+            font-family: "proxima_nova_ltsemibold";
+            width: 40%;
+            & + td{
+                width: 60%;
+                font-family: 'proxima_nova_altbold';
+            }
+        }
+        &.alt{
+            background-color: #F6F7F9;
+        }
+    }
+}
+
+
 /***************************************************************/
 /* SEC AVG GROUP                                               */
 /***************************************************************/
@@ -205,9 +226,9 @@
             width: 30%;
         }
         .f-right{
-          text-align: right;
-          float: left;
-          width: 70%;
+            text-align: right;
+            float: left;
+            width: 70%;
         }
         p{
 
@@ -382,35 +403,38 @@
                   }
               }
           }
-          .color{
-              display: inline-block;
-              width: 16px;
-              height: 16px;
-              padding: 0;
-              position: relative;
-              top: 3px;
-              &.video{
-                  background-color: #E1F0ED;
-              }
-              &.portrait{
-                  background-color: #DDE6ED;
-              }
-              &.product{
-                  background-color: #DCCDCD;
-              }
-              &.extra{
-                  background-color: #D7C0C9;
-              }
-              &.closeup{
-                  background-color: #C4D6E3;
-              }
-          }
           .c-and-e-ft-data{
               h3{
 
               }
           }
       }
+}
+
+
+/* COLOR */
+.color{
+    display: inline-block!important;
+    width: 16px!important;
+    height: 16px!important;
+    padding: 0!important;
+    position: relative;
+    top: 3px;
+    &.video{
+        background-color: #E1F0ED;
+    }
+    &.portrait{
+        background-color: #DDE6ED;
+    }
+    &.product{
+        background-color: #DCCDCD;
+    }
+    &.extra{
+        background-color: #D7C0C9;
+    }
+    &.closeup{
+        background-color: #C4D6E3;
+    }
 }
 
 
@@ -453,6 +477,96 @@
 
         }
         .col-3{
+
+        }
+    }
+}
+
+/******************************************/
+/* MD TAB CONT ENDG                       */
+/******************************************/
+.md-tab-cont-endg{
+    overflow: hidden;
+    .body{
+        .table-style.first-col{
+            margin-top: 41px;
+            tr td {
+                padding: 7px 20px 8px!important;
+            }
+        }
+    }
+    .item{
+        float: left;
+        width: 20%;
+        .head{
+            height: 85px;
+            max-height: 85px;
+            position: relative;
+            text-align: center;
+            padding: 0 15px;
+            hr{
+                margin: 10px 90px;
+            }
+            h3{
+                font-family: 'proxima_nova_ltsemibold';
+                line-height: 133%;
+                padding: 0 70px;
+                font-size: 19px;
+                margin-bottom: 5px;
+            }
+            span{
+                font-size: 12px;
+                color: #bbb;
+            }
+            i.ico{
+                position: absolute;
+                top: 0px;
+                right:10px;
+            }
+            .other-info{
+                p{
+                    font-size: 13px;
+                    font-family: 'proxima_nova_ltsemibold';
+                }
+            }
+        }
+        .color{
+            margin-right: 10px;
+        }
+        .grafica{
+            height: 135px;
+            max-height: 135px;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        &.first{
+            .body{
+
+            }
+        }
+        &.last{
+            .body{
+                border-right:0px;
+            }
+        }
+        .body{
+            border-right: 1px solid #ddd;
+            table{
+                width: 100%;
+                tr{
+                    th{
+                        padding: 0 10px 10px 10px;
+                        font-size: 11px;
+                        color: #ccc;
+                    }
+                    td{
+                        padding: 10px 20px !important;
+                    }
+                }
+            }
+        }
+        .footer{
 
         }
     }

@@ -26,7 +26,9 @@
     <!-- END CSS -->
 
     <!-- JS -->
-    <script src="../js/bootstrap.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- END JS -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -340,22 +342,53 @@
                                 <h2>BEST POST PERFORMANCE</h2>
                             </div>
                             <div class="bd">
+                                <script type="text/javascript">
+                                $('#myTabs a').click(function (e) {
+                                  e.preventDefault()
+                                  $(this).tab('show')
+                                })
+                                </script>
+
+                                <!-- Nav tabs -->
+                                <!--
+                                <ul class="nav nav-tabs" role="tablist">
+                                    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+                                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+                                    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+                                    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+                                </ul>
+                                -->
+
+                                <!-- Tab panes -->
+                                <!--
+                                <div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane active" id="home">...1</div>
+                                    <div role="tabpanel" class="tab-pane" id="profile">...2</div>
+                                    <div role="tabpanel" class="tab-pane" id="messages">...3</div>
+                                    <div role="tabpanel" class="tab-pane" id="settings">...4</div>
+                                </div>
+                                -->
+
                                 <div class="tab-menu">
-                                    <ul>
-                                        <li><a class="active" href="#">Per Category</a></li>
-                                        <li><a href="#">of UGC</a></li>
+                                    <ul role="tablist">
+                                        <li role="presentation" class="active">
+                                            <a href="#percategory" aria-controls="home" role="tab" data-toggle="tab" class="active" href="#">Per Category</a>
+                                        </li>
+                                        <li>
+                                            <a href="#ugc" aria-controls="profile" role="tab" data-toggle="tab" >of UGC</a>
+                                        </li>
                                     </ul>
                                 </div>
 
                                 <div class="tab-content">
-                                    <div class="row">
+                                    <div class="row" role="tabpanel" class="tab-pane active" id="home">
                                         <div class="col-md-3">
                                             <div class="post-items">
                                                 <div class="img">
                                                     <img src="../img/post-img.png" /a>
                                                 </div>
                                                 <div class="data">
-                                                    <table>
+                                                    <table class="table-style">
                                                         <tr class="alt">
                                                             <td>Category</td>
                                                             <td>Video</td>
@@ -472,7 +505,7 @@
                                                     <img src="../img/post-img.png" /a>
                                                 </div>
                                                 <div class="data">
-                                                    <table>
+                                                    <table class="table-style">
                                                         <tr class="alt">
                                                             <td>Category</td>
                                                             <td>Video</td>
@@ -506,7 +539,11 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="row" role="tabpanel" class="tab-pane" id="profile">
+                                        tab2
+                                    </div>
                                 </div>
+
                             </div>
                             <div class="ft">
 
@@ -529,26 +566,30 @@
                                 </div>
 
 
-                                <div class="md-tab-cont-endg">
+                                <div class="md-mu md-tab-cont-endg">
                                     <div class="item first">
                                         <div class="head">
+
+                                        </div>
+                                        <div class="grafica">
+
                                         </div>
                                         <div class="body">
-                                            <table>
+                                            <table class="table-style first-col">
                                                 <tr>
                                                     <td><span class="color video"></span> VIDEO</td>
                                                 </tr>
-                                                <tr>
-                                                    <td><span class="color"></span>PORTRAIT</td>
+                                                <tr class="alt">
+                                                    <td><span class="color portrait"></span>PORTRAIT</td>
                                                 </tr>
                                                 <tr>
-                                                    <td><span class="color"></span>PRODUCT</td>
+                                                    <td><span class="color product"></span>PRODUCT</td>
+                                                </tr>
+                                                <tr class="alt">
+                                                    <td><span class="color extra"></span>EXTRA</td>
                                                 </tr>
                                                 <tr>
-                                                    <td><span class="color"></span>EXTRA</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="color"></span>CLOSEUP</td>
+                                                    <td><span class="color closeup"></span>CLOSEUP</td>
                                                 </tr>
                                             </table>
                                         </div>
@@ -560,35 +601,35 @@
                                         <div class="head">
                                             <h3>Maybelline New Yory</h3>
                                             <span>L´Oréal group</span>
-                                            <div>
-                                                GRAFICA
-                                            </div>
+                                        </div>
+                                        <div class="grafica">
+                                            <img src="../img/grafica-chica.png" alt="" />
                                         </div>
                                         <div class="body">
-                                            <table>
+                                            <table class="table-style">
                                                 <tr>
-                                                    <td><span>Content</span></td>
-                                                    <td><span>Engagement <i class="fas fa-question-circle"></i></span></td>
+                                                    <th><span>Content</span></th>
+                                                    <th><span>Engagement <i class="fas fa-question-circle"></i></span></th>
                                                 </tr>
                                                 <tr>
-                                                    <td>15%</td>
-                                                    <td>0.78%</td>
+                                                    <td><span>15%</span></td>
+                                                    <td><span>0.78%</span></td>
+                                                </tr>
+                                                <tr class="alt">
+                                                    <td><span>15%</span></td>
+                                                    <td><span>0.78%</span></td>
                                                 </tr>
                                                 <tr>
-                                                    <td>15%</td>
-                                                    <td>0.78%</td>
+                                                    <td><span>15%</span></td>
+                                                    <td><span>0.78%</span></td>
+                                                </tr>
+                                                <tr class="alt">
+                                                    <td><span>15%</span></td>
+                                                    <td><span>0.78%</span></td>
                                                 </tr>
                                                 <tr>
-                                                    <td>15%</td>
-                                                    <td>0.78%</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>15%</td>
-                                                    <td>0.78%</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>15%</td>
-                                                    <td>0.78%</td>
+                                                    <td><span>15%</span></td>
+                                                    <td><span>0.78%</span></td>
                                                 </tr>
                                             </table>
                                         </div>
@@ -597,24 +638,140 @@
                                         </div>
                                     </div>
                                     <div class="item">
+                                        <div class="head">
+                                            <h3>Industry Average</h3>
+                                            <i class="ico fas fa-plus-circle"></i>
+                                        </div>
+                                        <div class="grafica">
+                                            <img src="../img/grafica-chica.png" alt="" />
+                                        </div>
+                                        <div class="body">
+                                            <table class="table-style">
+                                                <tr>
+                                                    <th><span>Content</span></th>
+                                                    <th><span>Engagement <i class="fas fa-question-circle"></i></span></th>
+                                                </tr>
+                                                <tr>
+                                                    <td><span>15%</span></td>
+                                                    <td><span>0.78%</span></td>
+                                                </tr>
+                                                <tr class="alt">
+                                                    <td><span>15%</span></td>
+                                                    <td><span>0.78%</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span>15%</span></td>
+                                                    <td><span>0.78%</span></td>
+                                                </tr>
+                                                <tr class="alt">
+                                                    <td><span>15%</span></td>
+                                                    <td><span>0.78%</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span>15%</span></td>
+                                                    <td><span>0.78%</span></td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <div class="footer">
 
+                                        </div>
                                     </div>
                                     <div class="item">
+                                        <div class="head">
+                                            <h3>Mac</h3>
+                                            <span>EsteeLauder Group</span>
+                                            <i class="ico fas fa-plus-circle"></i>
+                                            <hr>
+                                            <div class="other-info">
+                                                <p>32% Shared audience</p>
+                                            </div>
+                                        </div>
+                                        <div class="grafica">
+                                            <img src="../img/grafica-chica.png" alt="" />
+                                        </div>
+                                        <div class="body">
+                                            <table class="table-style">
+                                                <tr>
+                                                    <th><span>Content</span></th>
+                                                    <th><span>Engagement <i class="fas fa-question-circle"></i></span></th>
+                                                </tr>
+                                                <tr>
+                                                    <td><span>15%</span></td>
+                                                    <td><span>0.78%</span></td>
+                                                </tr>
+                                                <tr class="alt">
+                                                    <td><span>15%</span></td>
+                                                    <td><span>0.78%</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span>15%</span></td>
+                                                    <td><span>0.78%</span></td>
+                                                </tr>
+                                                <tr class="alt">
+                                                    <td><span>15%</span></td>
+                                                    <td><span>0.78%</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span>15%</span></td>
+                                                    <td><span>0.78%</span></td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <div class="footer">
 
+                                        </div>
                                     </div>
-                                    <div class="item">
+                                    <div class="item last">
+                                        <div class="head">
+                                            <h3>Kiko</h3>
+                                            <span>Percassi Group</span>
+                                            <i class="ico fas fa-plus-circle"></i>
+                                            <hr>
+                                            <div class="other-info">
+                                                <p>32% Shared audience</p>
+                                            </div>
+                                        </div>
+                                        <div class="grafica">
+                                            <img src="../img/grafica-chica.png" alt="" />
+                                        </div>
+                                        <div class="body">
+                                            <table class="table-style">
+                                                <tr>
+                                                    <th><span>Content</span></th>
+                                                    <th><span>Engagement <i class="fas fa-question-circle"></i></span></th>
+                                                </tr>
+                                                <tr>
+                                                    <td><span>15%</span></td>
+                                                    <td><span>0.78%</span></td>
+                                                </tr>
+                                                <tr class="alt">
+                                                    <td><span>15%</span></td>
+                                                    <td><span>0.78%</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span>15%</span></td>
+                                                    <td><span>0.78%</span></td>
+                                                </tr>
+                                                <tr class="alt">
+                                                    <td><span>15%</span></td>
+                                                    <td><span>0.78%</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span>15%</span></td>
+                                                    <td><span>0.78%</span></td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <div class="footer">
 
+                                        </div>
                                     </div>
-
 
                                 </div>
-
-
-
-
-
                             </div>
                             <div class="ft">
+
                             </div>
                         </div>
                         <!-- END -->
@@ -629,7 +786,7 @@
                                     <span>Whole week</span>
                                 </div>
                                 <div class="">
-                                    GRAFICA
+
                                 </div>
                             </div>
                             <div class="ft">
@@ -637,22 +794,15 @@
                             </div>
                         </div>
                         <!-- END -->
-
                     </div>
                 </div>
-
             </div>
-
             <a href="#top" class="btn-back-to-top"><i class="fas fa-chevron-circle-up"></i>Back to top</a>
-
         </div>
-
     </div>
 
     <!-- <div class="row">
     </div> -->
-
-
 
     <!-- <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
