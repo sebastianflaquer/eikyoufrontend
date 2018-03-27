@@ -3,13 +3,15 @@
 }
 
 .modal-content-left {
+	padding-right: 0;
 	img {
 		float: left;
+		width: 100%;
 	}
 	.modal-content-left-colors {
 		> span {
 			display: inline-block;
-		    width: 14%;
+		    width: 16%;
 		    height: 15px;
 		    padding: 0;
 		    margin: 0;
@@ -34,7 +36,7 @@
 		    	background: #fefefe;
 		    }
 		    &.color-sky {
-		    	width: calc(6% - 1px);
+		    	width: 8%;
 		    	background: #b9dfe2;
 		    }
 		}
@@ -43,7 +45,8 @@
 	.modal-content-left-percent-colors {
 		background: #f6f7f9;
 		padding: 20px;
-		width: calc(88% - 1px;);
+		width: 100%;
+		height: 110px;
 		float: left;
 		.global-info-percent-colors {
 			border-right: 1px solid #d4d5d7;
@@ -64,4 +67,62 @@
 		}
 	}		
 }
-.modal-content-right {}
+.modal-content-right {
+    min-height: 587px;
+    padding: 0;
+	background: #fff;
+	.btn-default {
+	    color: #fff;
+	    background-color: #4f4b59;
+	    position: absolute;
+	    border-color: 0;
+	    right: 10px;
+	    top: 10px;
+	    border-radius: 50%;
+	    width: auto;
+	    height: auto;
+	    padding: 8px;
+	    text-align: left;
+	    line-height: 7px;
+	    cursor: pointer;
+	    &:focus {
+	    	outline: none;
+	    }
+	}
+	h2 {
+		font-family: 'Proxima Nova', sans-serif;
+		letter-spacing: 5px;
+		font-size: 14px;
+		text-transform: uppercase;
+		text-align: left;
+		padding: 35px;
+	}
+	.modal-content-right-box-data {
+		letter-spacing: 1px;
+		.line-grey-bg,
+		.line-transparent-bg {
+		    padding: 6px 35px;
+		    font-size: 12px;
+		}
+		.line-grey-bg {
+			background: #f6f7f9;
+		}
+		.return-info {
+	    	float: right;
+	    	font-weight: bold;
+	    }
+	    .line-divider {
+	    	margin: 12px 35px;
+		    height: 1px;
+		    background: #dcdcdc;
+		    display: block;
+	    }
+	}
+}
+
+
+
+
+
+
+
