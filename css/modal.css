@@ -1,0 +1,48 @@
+.modal-dialog {
+  width: 820px; }
+
+.modal-content-left img {
+  float: left; }
+
+.modal-content-left .modal-content-left-colors > span {
+  display: inline-block;
+  width: 14%;
+  height: 15px;
+  padding: 0;
+  margin: 0;
+  float: left; }
+  .modal-content-left .modal-content-left-colors > span.color-black {
+    background: #060805; }
+  .modal-content-left .modal-content-left-colors > span.color-grey {
+    background: #2c2b29; }
+  .modal-content-left .modal-content-left-colors > span.color-brown {
+    background: #764c3c; }
+  .modal-content-left .modal-content-left-colors > span.color-rose {
+    background: #ebc1a9; }
+  .modal-content-left .modal-content-left-colors > span.color-roselight {
+    background: #f3dfd6; }
+  .modal-content-left .modal-content-left-colors > span.color-white {
+    width: 12%;
+    background: #fefefe; }
+  .modal-content-left .modal-content-left-colors > span.color-sky {
+    width: calc(6% - 1px);
+    background: #b9dfe2; }
+
+.modal-content-left .modal-content-left-percent-colors {
+  background: #f6f7f9;
+  padding: 20px;
+  width: calc(88% - 1px);
+  float: left; }
+  .modal-content-left .modal-content-left-percent-colors .global-info-percent-colors {
+    border-right: 1px solid #d4d5d7;
+    width: 28%;
+    text-align: center;
+    display: inline-block; }
+    .modal-content-left .modal-content-left-percent-colors .global-info-percent-colors .percent-values {
+      display: inline-block;
+      width: 40%; }
+    .modal-content-left .modal-content-left-percent-colors .global-info-percent-colors .slash-divider {
+      display: inline-block; }
+    .modal-content-left .modal-content-left-percent-colors .global-info-percent-colors:last-child {
+      border: 0;
+      width: 10%; }
