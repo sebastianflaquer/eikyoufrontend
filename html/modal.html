@@ -28,6 +28,12 @@
     <!-- JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+     <!-- Tooltip inicialized -->
+    <script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip(); 
+    });
+    </script>
     
     <!-- END JS -->
 
@@ -121,8 +127,8 @@
               <span class="return-info"><b>Portrait</b></span>
             </div>
             <div class="line-transparent-bg">
-              <span class="name-info">Engagement</span>
-              <span class="return-info">1.13% <span class="">Good post</span></span>
+              <span class="name-info">Engagement <a href="#" class="tooltip-question" data-toggle="tooltip" title="Tooltip information">?</a></span>
+              <span class="return-info">1.13% <span class="green-post" data-toggle="tooltip" title="This post has 0.32% better engagement than your average post.">Good post</span></span>
             </div>
             <div class="line-grey-bg">
               <span class="name-info">Likes</span>
@@ -134,6 +140,56 @@
             </div>
             <span class="line-divider"></span>
           </div>
+
+          <div class="modal-content-right-box-data">
+            <div class="line-grey-bg">
+              <span class="name-info">Day</span>
+              <span class="return-info"><b>Wed, Dec 27, 2017</b></span>
+            </div>
+            <div class="line-transparent-bg">
+              <span class="name-info">Time</span>
+              <span class="return-info">8:28 AM<span class="">Early morning</span></span>
+            </div>
+            <span class="line-divider"></span>            
+          </div>
+
+          <div class="modal-content-right-box-data">
+            <div class="line-transparent-bg">
+              <span class="name-info">Resource</span>
+              <a href="#">Artistic Collage</a>
+            </div>
+            <div class="line-grey-bg">
+              <span class="name-info">Type</span>
+              <span class="return-info"><b>Eye Shadow</b></span>
+            </div>
+            <span class="line-divider"></span>            
+          </div>
+
+          <div class="modal-content-right-box-data">
+            <div class="line-transparent-bg">
+              <span class="name-info">Influencer</span>
+              <a href="#" data-toggle="tooltip" title="See more posts with this">Jeffree Starr</a>
+            </div>
+            <div class="line-grey-bg">
+              <span class="name-info">Eng. in profile <a href="#" class="tooltip-question" data-toggle="tooltip" title="Tooltip information">?</a></span>
+              <span class="return-info"><b>1.45%</b></span>
+            </div>
+            <span class="line-divider"></span>            
+          </div>
+
+          <div class="modal-content-right-box-data">
+            <div class="line-transparent-bg last">
+              <span class="name-info">Labels</span>
+              <a href="#">Purple</a>
+              <a href="#">Collage</a>
+              <a href="#">One product</a>
+              <a href="#">Asymetric</a>
+              <a href="#">Product palette</a>
+              <a href="#">Maybelline</a>
+              <a href="#">Eye shadow</a>
+            </div>          
+          </div>
+
           <div class="post-info-container">
                 
           </div>
