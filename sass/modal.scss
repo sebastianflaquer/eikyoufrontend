@@ -1,12 +1,77 @@
 .modal-dialog {
-	width: 820px; 
+	width: 820px;
 }
-
+.modal-content {
+	overflow: hidden;
+    border: 0;
+    border-radius: 0;
+    background: #f6f7f9;
+}
 .modal-content-left {
-	padding-right: 0;
-	img {
-		float: left;
-		width: 100%;
+	padding: 0;
+	.modal-content-left-top {
+		position: relative;
+		overflow: hidden;
+		.modal-icons-hover {
+			display: none;
+			position: absolute;
+		    width: 100%;
+		    height: 100%;
+		    background: rgba(80,76,91,0.7);
+		    a {
+		    	width: 50%;
+			    display: inline-block;
+			    float: left;
+			    text-align: center;
+			    height: 50%;
+			    color: #fdfdfd;
+			    text-decoration: none;
+			    height: 190px;
+			    border-right: 1px solid #c4c2c5;
+			    font-size: 12px;
+			    margin: 29% 0;
+			    &:hover {
+			    	color: #c4c4c6;
+			    }
+			    &:last-child {
+			    	border-right: 0;
+			    }
+			    i {
+			    	clear: both;
+				    display: block;
+				    margin-bottom: 10px;
+				    margin-top: 35px;
+				    font-size: 90px;
+			    }
+			    &.follow-icon {
+			    	i {
+				    	text-decoration: line-through;
+			    	}
+		    	}
+		    	&.collapsed {
+		    		i {
+						text-decoration: none;
+			    	}
+		    	}
+		    }
+		}
+		img {
+			float: left;
+			width: 100%;
+		}
+		.following {
+			background: rgba(80,76,91,0.7);
+			padding: 10px 0 15px 18px;
+			width: 100%;
+		}
+		&:hover {
+			.modal-icons-hover {
+				display: block;
+			}
+			.following {
+				background: transparent;
+			}
+		}
 	}
 	.modal-content-left-colors {
 		> span {
@@ -46,7 +111,7 @@
 		background: #f6f7f9;
 		padding: 20px;
 		width: 100%;
-		height: 138px;
+		//height: 138px;
 		float: left;
 		.global-info-percent-colors {
 			border-right: 1px solid #d4d5d7;
@@ -56,16 +121,36 @@
 			.percent-values {
 				display: inline-block;
 				width: 40%;
+				> span:last-child {
+				    font-size: 10px;
+				    margin-top: 5px;
+				    display: block;
+				}
 			}
 			.slash-divider {
 				display: inline-block;
+				position: relative;
+    			top: -16px;
 			}
 			&:last-child {
 				border: 0;
 				width: 10%;
 			}
 		}
-	}		
+	}
+	.follow-box {
+		position: absolute;
+	    bottom: 0;
+	    color: white;
+	    font-size: 12px;
+	    padding: 0px 0 15px 18px;
+	    i {
+	    	font-size: 20px;
+		    position: relative;
+		    top: 3px;
+		    right: 3px; 
+	    }
+	}
 }
 .modal-content-right {
     min-height: 587px;
@@ -174,21 +259,38 @@
 		    text-align: center;
 		    height: 15px;
 	    }
-	    .tooltip {
-	    	.tooltip-inner {
-			    width: auto;
-			    padding: 3px 8px;
-			    color: #fff;
-			    text-align: center;
-			    background-color: #4e4a59;
-			    border-radius: 4px;
-			    font-size: 10px;
-			    padding: 10px 20px;
-			}
-			.tooltip-arrow {
-				display: none;
-			}
+	    .skintone-name {
+	    	padding: 18px 0 0;
+    		float: left;
 	    }
+	}
+	.skintone-value {
+	    float: left;
+    	padding: 15px 7px;
+	}
+	.skintone-color {
+		border-radius: 5px;
+	    width: 40px;
+	    height: 40px;
+	    background: #f3dfd6;
+	    border: solid 1px #cdc3c1;
+	    float: right;
+	}
+}
+
+.tooltip {
+	.tooltip-inner {
+	    width: auto;
+	    padding: 3px 8px;
+	    color: #fff;
+	    text-align: center;
+	    background-color: #4e4a59;
+	    border-radius: 4px;
+	    font-size: 10px;
+	    padding: 10px 20px;
+	}
+	.tooltip-arrow {
+		display: none;
 	}
 }
 
