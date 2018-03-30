@@ -23,6 +23,7 @@
     <link rel="stylesheet" type="text/css" href="../css/home.css">
     <link rel="stylesheet" type="text/css" href="../css/styles.css">
     <link rel="stylesheet" type="text/css" href="../css/modal.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
     <!-- END CSS -->
 
     <!-- JS -->
@@ -58,16 +59,32 @@
       <div class="modal-content">
         
         <div class="modal-content-left col-sm-7">
-            <img src="../img/modal-img-01.jpg" alt="Post Image" />
+            <div class="modal-content-left-top">
+              <img src="../img/modal-img-01.jpg" alt="Post Image" />
+              <div class="modal-icons-hover">
+                <a href="#" class="instagram-icon" class="modal-instagram-option">
+                  <i class="fab fa-instagram"></i>
+                  <span>View in Instagram</span>
+                </a>
+                <a href="#" class="follow-icon collapsed" class="modal-follow-option" data-toggle="collapse" data-target="#follow"> 
+                  <i class="far fa-heart"></i>
+                  <span>Follow Post</span>
+                </a>
+              </div>
+
+              <div id="follow" class="collapse follow-box following" aria-expanded="false">
+                <i class="far fa-heart"></i> Following since January 8, 2018
+              </div>
+            </div>
 
             <div class="modal-content-left-colors">
-              <span class="color-black"></span>
-              <span class="color-grey"></span>
-              <span class="color-brown"></span>
-              <span class="color-rose"></span>
-              <span class="color-roselight"></span>
-              <span class="color-white"></span>
-              <span class="color-sky"></span>
+              <span class="color-black" class="tooltip-question"></span>
+              <span class="color-grey" class="tooltip-question"></span>
+              <span class="color-brown" class="tooltip-question" data-toggle="tooltip" title="#EBC1A9 | R235 G193 B169"></span>
+              <span class="color-rose" class="tooltip-question" data-toggle="tooltip" title="#EBC1A9 | R235 G193 B169"></span>
+              <span class="color-roselight" data-toggle="collapse" data-target="#skintone-show" class="tooltip-question"></span>
+              <span class="color-white" class="tooltip-question" data-toggle="tooltip" title="#EBC1A9 | R235 G193 B169"></span>
+              <span class="color-sky" class="tooltip-question" data-toggle="tooltip" title="#EBC1A9 | R235 G193 B169"></span>
             </div>
 
             <div class="modal-content-left-percent-colors">
@@ -85,32 +102,32 @@
 
               <div class="global-info-percent-colors">
                 <div class="percent-values">
-                  <span>64%</span>
-                  <span>Light</span>
+                  <span>35%</span>
+                  <span>Bright</span>
                 </div>
                 <span class="slash-divider"> / </span>
                 <div class="percent-values">
-                  <span>35%</span>
-                  <span>Dark</span>
+                  <span>55%</span>
+                  <span>Pale</span>
                 </div>
               </div>
 
               <div class="global-info-percent-colors">
                 <div class="percent-values">
-                  <span>64%</span>
-                  <span>Light</span>
+                  <span>52%</span>
+                  <span>Warm</span>
                 </div>
                 <span class="slash-divider"> / </span>
                 <div class="percent-values">
-                  <span>35%</span>
-                  <span>Dark</span>
+                  <span>37%</span>
+                  <span>Cold</span>
                 </div>
               </div>
 
               <div class="global-info-percent-colors">
                 <div class="percent-values">
-                  <span>64%</span>
-                  <span>Light</span>
+                  <span>12%</span>
+                  <span>Neutral</span>
                 </div>
               </div>
             </div>
@@ -161,6 +178,15 @@
             <div class="line-grey-bg">
               <span class="name-info">Type</span>
               <span class="return-info"><b>Eye Shadow</b></span>
+            </div>
+            <div class="skintone-box collapse" id="skintone-show" aria-expanded="false">
+              <div class="line-transparent-bg">
+                <span class="name-info skintone-name">Skintone</span>
+                <div class="return-info">
+                  <span class="skintone-value">5</span>
+                  <span class="skintone-color"></span>
+                </div>
+              </div>
             </div>
             <span class="line-divider"></span>            
           </div>
