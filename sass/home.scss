@@ -150,6 +150,47 @@
             }
         }
     }
+    .of-ugc{
+      margin-top: 20px;
+      border-top: 1px solid #DCDCDC;
+      padding-top: 20px;
+      .influencer{
+        display:block;
+        margin-bottom: 10px;
+      }
+      h3{
+        display:block;
+        margin-bottom: 10px;
+        a{
+          color:#4C4B50;
+          font-size: 13px;
+          font-family: "proxima_nova_ltsemibold";
+          display: block;
+          border: 1px solid #DCDCDC;
+          padding: 10px 20px;
+          text-align: center;
+        }
+      }
+      table{
+          width: 100%;
+          tr{
+              td{
+                  padding: 5px;
+                  font-size: 13px;
+                  font-family: "proxima_nova_ltsemibold";
+                  //width: 20%;
+                  & + td{
+                      //width: 80%;
+                      text-align: right;
+                      font-family: 'proxima_nova_altbold';
+                  }
+              }
+              &.alt{
+                  background-color: #F6F7F9;
+              }
+          }
+      }
+    }
 }
 
 

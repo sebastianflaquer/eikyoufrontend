@@ -111,6 +111,36 @@
   .post-items .data-alt table tr.alt {
     background-color: #F6F7F9; }
 
+.post-items .of-ugc {
+  margin-top: 20px;
+  border-top: 1px solid #DCDCDC;
+  padding-top: 20px; }
+  .post-items .of-ugc .influencer {
+    display: block;
+    margin-bottom: 10px; }
+  .post-items .of-ugc h3 {
+    display: block;
+    margin-bottom: 10px; }
+    .post-items .of-ugc h3 a {
+      color: #4C4B50;
+      font-size: 13px;
+      font-family: "proxima_nova_ltsemibold";
+      display: block;
+      border: 1px solid #DCDCDC;
+      padding: 10px 20px;
+      text-align: center; }
+  .post-items .of-ugc table {
+    width: 100%; }
+    .post-items .of-ugc table tr td {
+      padding: 5px;
+      font-size: 13px;
+      font-family: "proxima_nova_ltsemibold"; }
+      .post-items .of-ugc table tr td + td {
+        text-align: right;
+        font-family: 'proxima_nova_altbold'; }
+    .post-items .of-ugc table tr.alt {
+      background-color: #F6F7F9; }
+
 /* GRIDS TABLES */
 .table-style tr td {
   padding: 5px !important;
