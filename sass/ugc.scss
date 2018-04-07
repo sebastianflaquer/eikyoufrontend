@@ -1,0 +1,64 @@
+
+.md-primary-data.md-ugc{
+
+}
+
+.md-brand-influencer.md-ugc{
+  .influencer-data{
+    text-align: center;
+    margin-bottom: 15px;
+    h3{
+      font-size: 15px;
+      font-weight: 700;
+      color:#4C4B50;
+      margin-bottom: 10px;
+    }
+    p{
+      font-size: 12px;
+    }
+  }
+  .post-items .data table tr td{
+    font-size: 12px;
+    width: 70%;
+  }
+}
+
+.md-influencer-comparsion{
+    text-align:left;
+    .bd{
+        .table-style tr{
+            &:first-child{
+                span{
+                    padding-left: 15px;
+                }
+            }
+            td{
+                width: 18%;
+                span{
+                    position:relative;
+                    display: block;
+                    padding: 5px !important;
+                    font-size: 13px;
+                    font-weight: bold;
+                    .ico{
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.md-content-engagement.md-ugc{
+
+}
+
+.md-post-performance.md-ugc{
+
+}
+
+.md-content-engagement.md-ugc{
+
+}

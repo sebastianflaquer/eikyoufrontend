@@ -26,6 +26,10 @@ ul, li {
     top: 6px;
     margin-right: 10px; }
 
+.container-eikyou {
+  max-width: 1400px;
+  margin: auto; }
+
 .align-r {
   text-align: right; }
 
