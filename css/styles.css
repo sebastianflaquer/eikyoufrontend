@@ -1,0 +1,97 @@
+.toolTip {
+  position: fixed;
+  display: none;
+  width: auto;
+  height: auto;
+  background: none repeat scroll 0 0 white;
+  border: 0 none;
+  border-radius: 8px 8px 8px 8px;
+  box-shadow: -3px 3px 15px #888888;
+  color: black;
+  font: 12px sans-serif;
+  padding: 5px;
+  text-align: center; }
+
+.capitalize {
+  text-transform: capitalize; }
+
+.post-list .posts-items .row {
+  margin-bottom: 50px; }
+
+.brand-rankings .table-style tr:first-child span {
+  padding-left: 10px; }
+
+.brand-rankings .table-style tr.industry {
+  background-color: #DCE5ED; }
+
+.brand-rankings .table-style tr.mybrand {
+  background-color: #DEF1ED; }
+
+.brand-rankings .table-style tr th span {
+  font-size: 11px;
+  color: #ccc; }
+
+.brand-rankings .table-style tr td {
+  width: 13%;
+  border-left: 1px solid #ccc; }
+  .brand-rankings .table-style tr td.alt {
+    width: 20%;
+    border-left: none; }
+  .brand-rankings .table-style tr td.alt2 {
+    width: 16%;
+    border-left: none; }
+  .brand-rankings .table-style tr td span {
+    position: relative;
+    display: block;
+    padding: 5px !important;
+    font-size: 13px;
+    font-weight: bold; }
+    .brand-rankings .table-style tr td span .difference {
+      font-size: 10px;
+      color: green;
+      display: inline; }
+      .brand-rankings .table-style tr td span .difference.negative {
+        color: red; }
+      .brand-rankings .table-style tr td span .difference .ico {
+        position: absolute;
+        top: 0;
+        left: 0; }
+
+.brand-audiences .table-style tr:first-child span {
+  padding-left: 10px; }
+
+.brand-audiences .table-style tr.industry {
+  background-color: #DCE5ED; }
+
+.brand-audiences .table-style tr.mybrand {
+  background-color: #DEF1ED; }
+
+.brand-audiences .table-style tr th span {
+  font-size: 11px;
+  color: #ccc; }
+
+.brand-audiences .table-style tr td {
+  width: 13%;
+  border-left: 1px solid #ccc; }
+  .brand-audiences .table-style tr td.alt {
+    width: 20%;
+    border-left: none; }
+  .brand-audiences .table-style tr td.alt2 {
+    width: 16%;
+    border-left: none; }
+  .brand-audiences .table-style tr td span {
+    position: relative;
+    display: block;
+    padding: 5px !important;
+    font-size: 13px;
+    font-weight: bold; }
+    .brand-audiences .table-style tr td span .difference {
+      font-size: 10px;
+      color: green;
+      display: inline; }
+      .brand-audiences .table-style tr td span .difference.negative {
+        color: red; }
+      .brand-audiences .table-style tr td span .difference .ico {
+        position: absolute;
+        top: 0;
+        left: 0; }

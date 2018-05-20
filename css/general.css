@@ -1,3 +1,17 @@
+.toolTip {
+  position: fixed;
+  display: none;
+  width: auto;
+  height: auto;
+  background: none repeat scroll 0 0 white;
+  border: 0 none;
+  border-radius: 8px 8px 8px 8px;
+  box-shadow: -3px 3px 15px #888888;
+  color: black;
+  font: 12px sans-serif;
+  padding: 5px;
+  text-align: center; }
+
 /**********************************************/
 /* GENERAL                                    */
 /**********************************************/
@@ -43,19 +57,22 @@ ul, li {
   font-size: 19px; }
 
 .s-font {
-  font-size: 25px; }
+  font-size: 22px; }
 
 .xm-font {
-  font-size: 30px; }
+  font-size: 26px; }
 
 .m-font {
   font-size: 36px; }
 
 .l-font {
-  font-size: 45px; }
+  font-size: 38px; }
 
 .xl-font {
-  font-size: 58px; }
+  font-size: 50px; }
+
+.bold {
+  font-weight: bold; }
 
 /**********************************************/
 /* FONTS                                      */

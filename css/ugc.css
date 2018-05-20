@@ -1,3 +1,46 @@
+.md-primary-data.md-ugc .cols-2 .col-1,
+.md-primary-data.md-ugc .cols-2 .col-2 {
+  width: 50%;
+  padding: 0 10px; }
+
+.md-primary-data.md-ugc .sec-group {
+  height: 150px; }
+
+.md-primary-data.md-ugc .sec-avg-group {
+  width: 33.3%;
+  text-align: center; }
+  .md-primary-data.md-ugc .sec-avg-group .top {
+    padding: 0px 0 20px; }
+  .md-primary-data.md-ugc .sec-avg-group .btm {
+    padding: 20px 0 0px; }
+  .md-primary-data.md-ugc .sec-avg-group .big {
+    font-size: 26px;
+    float: left;
+    margin-right: 10px; }
+  .md-primary-data.md-ugc .sec-avg-group .text {
+    width: 168px;
+    text-align: left;
+    display: inline-block;
+    float: left; }
+
+.md-primary-data.md-ugc .sec-user-group {
+  width: 33.3%; }
+  .md-primary-data.md-ugc .sec-user-group .top .title {
+    margin-bottom: 0px;
+    font-weight: bold; }
+  .md-primary-data.md-ugc .sec-user-group .btm {
+    border-top: 0px;
+    padding-top: 5px; }
+
+.md-primary-data.md-ugc .sec-most-post {
+  width: 33.3%; }
+  .md-primary-data.md-ugc .sec-most-post .top .title {
+    margin-bottom: 0px;
+    font-weight: bold; }
+  .md-primary-data.md-ugc .sec-most-post .btm {
+    border-top: 0px;
+    padding-top: 5px; }
+
 .md-brand-influencer.md-ugc .influencer-data {
   text-align: center;
   margin-bottom: 15px; }
@@ -29,3 +72,6 @@
         position: absolute;
         top: 0;
         left: 0; }
+
+.md-influencer-comparsion.partner-comparison .bd .table-style tr td:first-child {
+  width: 45%; }

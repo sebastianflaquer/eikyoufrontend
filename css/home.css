@@ -1,8 +1,9 @@
 /******************************************************/
 .main-cont {
   border-top: 1px solid #F2F1F3;
-  background-color: #F5F7F9;
-  padding: 20px; }
+  background-color: #fff;
+  padding: 20px;
+  position: relative; }
 
 .md-mu {
   padding: 50px 0; }
@@ -17,16 +18,15 @@
 /********************************************************/
 .md-sidebar-menu li {
   border-bottom: 1px solid #D6D8DE; }
-
-.md-sidebar-menu li a {
-  display: block;
-  padding: 12px 0;
-  color: #1D1628;
-  font-size: 14px; }
-
-.md-sidebar-menu li a.active {
-  padding-left: 15px;
-  font-weight: bold; }
+  .md-sidebar-menu li a {
+    display: block;
+    padding: 12px 0;
+    color: #1D1628;
+    font-size: 14px; }
+    .md-sidebar-menu li a.active {
+      padding-left: 15px;
+      font-weight: bold;
+      background: url("/web/statics/images/ic-arrow-selected.png") no-repeat left center; }
 
 /************************************************************/
 .cont-info-page {
@@ -43,9 +43,24 @@
   text-align: center;
   padding: 40px 0 60px 0; }
   .md-big-num h3 {
-    font-size: 58px; }
+    font-size: 58px;
+    margin-bottom: 10px;
+    font-family: 'proxima_nova_ltthin'; }
   .md-big-num p {
     font-size: 17px; }
+  .md-big-num .fas {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    position: relative;
+    top: 2px; }
+    .md-big-num .fas.fas-follow {
+      background: url("/web/statics/images/ic-followers.png") no-repeat center center; }
+    .md-big-num .fas.fas-post {
+      background: url("/web/statics/images/ic-post.png") no-repeat center center; }
+    .md-big-num .fas.fas-likes {
+      background: url("/web/statics/images/ic-heart.png") no-repeat center center; }
 
 /***************************************************************/
 /* TAB MENU                                                    */
@@ -85,9 +100,11 @@
 
 .post-items .img {
   width: 100%;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  max-height: 204px;
+  border-radius: 10px;
+  overflow: hidden; }
   .post-items .img img {
-    border-radius: 10px;
     display: block;
     width: 100%; }
 
@@ -98,6 +115,7 @@
   .post-items .data table {
     width: 100%; }
     .post-items .data table tr td {
+      font-weight: normal;
       padding: 5px;
       font-size: 13px;
       font-family: "proxima_nova_ltsemibold";
@@ -189,12 +207,12 @@
     font-size: 15px;
     font-family: 'Proxima Nova', sans-serif; }
   .sec-group .top {
-    padding-bottom: 20px; }
+    padding-bottom: 25px; }
   .sec-group .btm {
     padding: 20px 20px 0 20px;
     border-top: 1px solid #D2DEDE; }
   .sec-group .fot {
-    padding-top: 20px; }
+    padding-top: 15px; }
 
 .sec-avg-group {
   width: 40%;
@@ -204,27 +222,44 @@
     .sec-avg-group .top .f-left {
       text-align: left;
       float: left;
-      width: 30%; }
+      width: 45%; }
       .sec-avg-group .top .f-left .title {
-        text-align: left; }
+        text-align: left;
+        font-size: 12px;
+        line-height: 140%; }
+        .sec-avg-group .top .f-left .title i {
+          margin-left: 5px; }
     .sec-avg-group .top .f-right {
       text-align: right;
       float: left;
-      width: 70%; }
+      width: 55%; }
+    .sec-avg-group .top .min-max {
+      margin-top: 10px; }
+      .sec-avg-group .top .min-max p {
+        font-weight: bold; }
+        .sec-avg-group .top .min-max p span {
+          display: inline-block;
+          margin: 0 10px; }
   .sec-avg-group .btm {
     padding-top: 0px;
     border-top: 1px solid #D2DEDE;
-    overflow: hidden; }
+    overflow: hidden;
+    padding-left: 0;
+    padding-right: 0; }
     .sec-avg-group .btm .md-block-data {
       text-align: center;
       padding: 40px 0px 20px 0px;
       width: 50%;
       display: block;
       float: left; }
+      .sec-avg-group .btm .md-block-data.cols-2 .col-1,
+      .sec-avg-group .btm .md-block-data.cols-2 .col-2 {
+        width: 50%; }
       .sec-avg-group .btm .md-block-data:first-child {
         border-right: 1px solid #D2DEDE; }
       .sec-avg-group .btm .md-block-data h3 {
-        margin-bottom: 30px; }
+        margin-bottom: 30px;
+        font-size: 13px; }
       .sec-avg-group .btm .md-block-data .col-1 {
         padding: 0 10px;
         border-right: 1px solid #D2DEDE; }
@@ -249,14 +284,23 @@
   .sec-user-group .md-block-data {
     text-align: center; }
     .sec-user-group .md-block-data .title {
-      margin-bottom: 15px; }
+      margin-bottom: 15px;
+      font-size: 12px; }
+    .sec-user-group .md-block-data .xxs-font {
+      margin-top: 5px;
+      line-height: 140%; }
+    .sec-user-group .md-block-data .xs-font.bold {
+      margin-bottom: 5px; }
 
 .sec-most-post {
   width: 35%;
   background-color: #F4F6F8; }
   .sec-most-post .md-block-data {
     text-align: center; }
+    .sec-most-post .md-block-data p b {
+      font-weight: bold; }
   .sec-most-post .title {
+    font-size: 12px;
     margin-bottom: 30px; }
   .sec-most-post .btm {
     padding-top: 30px; }
@@ -294,7 +338,8 @@
 
 .md-content-engagement .bd .name {
   font-size: 13px;
-  font-weight: bold; }
+  font-weight: normal;
+  letter-spacing: 2px; }
 
 .md-content-engagement .bd .last {
   font-size: 13px;
@@ -303,6 +348,37 @@
 
 .md-content-engagement .bd .theader th {
   padding-bottom: 10px; }
+
+.md-content-engagement .bd .c-and-e-ft-data .col-md-4 {
+  border-right: 1px solid #eee; }
+  .md-content-engagement .bd .c-and-e-ft-data .col-md-4.last-col {
+    border-right: 0; }
+
+.md-content-engagement .bd .avg-increase-ugc .left-num {
+  float: left;
+  font-size: 25px;
+  padding: 10px 0; }
+
+.md-content-engagement .bd .avg-increase-ugc .right-col {
+  float: left;
+  margin-left: 10px;
+  width: 60%;
+  padding: 6px 0; }
+  .md-content-engagement .bd .avg-increase-ugc .right-col span {
+    font-size: 12px; }
+
+.md-content-engagement .bd .total-likes .left-num {
+  float: left;
+  font-size: 25px;
+  padding: 10px 0; }
+
+.md-content-engagement .bd .total-likes .right-col {
+  float: left;
+  margin-left: 10px;
+  width: 60%;
+  padding: 14px 0; }
+  .md-content-engagement .bd .total-likes .right-col span {
+    font-size: 14px; }
 
 /* COLOR */
 .color {
@@ -341,20 +417,64 @@
         float: left;
         font-size: 45px; }
       .c-and-e-ft-data .bd .col-1 .right-col {
-        float: left; }
+        float: left;
+        margin-left: 10px;
+        width: 60%; }
         .c-and-e-ft-data .bd .col-1 .right-col span {
-          font-size: 15px; }
+          display: block;
+          margin-top: 5px;
+          margin-bottom: 8px;
+          font-size: 14px; }
         .c-and-e-ft-data .bd .col-1 .right-col .progressbar {
+          background-color: #eee;
+          margin: 0;
+          padding: 0;
           height: 10px;
-          width: 100%;
-          background-color: #ddd; }
+          width: 100%; }
           .c-and-e-ft-data .bd .col-1 .right-col .progressbar .bar {
-            background-color: red;
+            margin: 0;
+            padding: 0;
+            background-color: #D7C0C9;
             height: 10px; }
 
 /******************************************/
 /* MD COMPARE BRAND                       */
 /******************************************/
+/******************************************/
+/* MD ENGAGEMENT DAY CATEGORY             */
+/******************************************/
+.md-engagement-day-category .bd .time-slider {
+  text-align: center;
+  position: relative;
+  top: 20px;
+  z-index: 10; }
+  .md-engagement-day-category .bd .time-slider span {
+    font-size: 13px;
+    font-weight: 700; }
+
+.column-chart-component g text {
+  font-weight: normal; }
+
+.ico-arrow i {
+  display: block;
+  width: 13px;
+  height: 11px; }
+
+.ico-arrow.ico-up {
+  color: #6BBA9B; }
+  .ico-arrow.ico-up i {
+    background: url("/web/statics/images/ic-arrow-up.png") no-repeat center center; }
+
+.ico-arrow.ico-dw {
+  color: #D99F9D; }
+  .ico-arrow.ico-dw i {
+    background: url("/web/statics/images/ic-arrow-dw.png") no-repeat center center; }
+
+.ico-arrow.ico-nt {
+  color: #B0AEBB; }
+  .ico-arrow.ico-nt i {
+    background: url("/web/statics/images/ic-arrow-nt.png") no-repeat center center; }
+
 /******************************************/
 /* MD TAB CONT ENDG                       */
 /******************************************/
@@ -363,10 +483,17 @@
   .md-tab-cont-endg .body .table-style.first-col {
     margin-top: 41px; }
     .md-tab-cont-endg .body .table-style.first-col tr td {
+      font-weight: normal;
       padding: 7px 20px 8px !important; }
   .md-tab-cont-endg .item {
     float: left;
-    width: 20%; }
+    width: 192px; }
+    .md-tab-cont-endg .item.first {
+      width: 160px; }
+    .md-tab-cont-endg .item .item-container-brands {
+      float: left;
+      width: 800px;
+      overflow-x: scroll; }
     .md-tab-cont-endg .item .head {
       height: 85px;
       max-height: 85px;
@@ -378,16 +505,21 @@
       .md-tab-cont-endg .item .head h3 {
         font-family: 'proxima_nova_ltsemibold';
         line-height: 133%;
-        padding: 0 70px;
+        padding: 0 15px;
         font-size: 19px;
         margin-bottom: 5px; }
       .md-tab-cont-endg .item .head span {
         font-size: 12px;
         color: #bbb; }
-      .md-tab-cont-endg .item .head i.ico {
+      .md-tab-cont-endg .item .head .close-brand {
+        background: url(/web/statics/images/ic-remove.png) no-repeat center center #4f4a58;
+        width: 16px;
+        height: 16px;
+        border-radius: 30px;
         position: absolute;
-        top: 0px;
-        right: 10px; }
+        top: -5px;
+        right: 10px;
+        background-size: 16px; }
       .md-tab-cont-endg .item .head .other-info p {
         font-size: 13px;
         font-family: 'proxima_nova_ltsemibold'; }
@@ -410,4 +542,4 @@
           font-size: 11px;
           color: #ccc; }
         .md-tab-cont-endg .item .body table tr td {
-          padding: 10px 20px !important; }
+          padding: 10px 10px !important; }
