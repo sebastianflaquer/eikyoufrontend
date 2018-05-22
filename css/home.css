@@ -1,9 +1,14 @@
 /******************************************************/
 .main-cont {
   border-top: 1px solid #F2F1F3;
-  background-color: #fff;
+  background-color: #f5f7f9;
   padding: 20px;
   position: relative; }
+
+.inner-page-content {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 6px 24px 0 rgba(0, 0, 0, 0.06); }
 
 .md-mu {
   padding: 50px 0; }

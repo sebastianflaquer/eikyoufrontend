@@ -293,3 +293,148 @@
         height: 30px;
         float: right;
         background: url("../img/ic-add.png") no-repeat center center; }
+
+/****************************************************/
+/* MULTI COLORS ROW                                 */
+/****************************************************/
+.md-colors-multi-rows {
+  margin-bottom: 20px;
+  overflow: hidden; }
+  .md-colors-multi-rows.full-margin {
+    margin-right: -20px;
+    margin-left: -20px; }
+  .md-colors-multi-rows .multi-row {
+    height: 94px;
+    display: block;
+    margin: 0;
+    border: 0;
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    padding: 15px; }
+    .md-colors-multi-rows .multi-row.green {
+      background-color: #E1F0ED; }
+    .md-colors-multi-rows .multi-row.blue {
+      background-color: #DDE6ED; }
+    .md-colors-multi-rows .multi-row.pink {
+      background-color: #F4F6F8; }
+
+.md-big-single-num h3 {
+  font-family: 'proxima_nova_ltthin';
+  font-size: 48px;
+  font-weight: 300;
+  letter-spacing: 5px;
+  text-align: center;
+  color: #4f4a58; }
+
+.md-big-single-num p {
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #4f4a58; }
+
+.two-cols .md-block-avg {
+  width: 50%;
+  float: left; }
+
+.md-block-avg .col {
+  vertical-align: middle;
+  padding: 0 10px; }
+  .md-block-avg .col:last-child {
+    padding-left: 15px;
+    border-left: 1px solid #D2DEDE; }
+
+.md-block-avg h3 {
+  margin-bottom: 5px;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1.6;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #4f4a58; }
+
+.md-block-avg .num {
+  margin-bottom: 5px;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #4f4a58; }
+
+.md-block-avg .text {
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.33;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #4f4a58; }
+
+.md-block-avg .col-1 {
+  display: inline-table; }
+
+.md-block-avg .col-2 {
+  display: inline-table; }
+
+.md-block-avg .col-1 {
+  display: inline-table; }
+
+.md-block-avg .col-2 {
+  display: inline-table; }
+
+/* AVG PER POST */
+.md-avg-per-post {
+  overflow: hidden; }
+  .md-avg-per-post .f-left {
+    text-align: left;
+    float: left;
+    width: 45%; }
+    .md-avg-per-post .f-left .title {
+      font-size: 10px;
+      font-weight: 600;
+      line-height: 1.6;
+      letter-spacing: 3px;
+      text-align: left;
+      color: #4f4a58; }
+      .md-avg-per-post .f-left .title i {
+        margin-left: 5px; }
+  .md-avg-per-post .f-right {
+    text-align: right;
+    float: left;
+    width: 55%; }
+    .md-avg-per-post .f-right p.l-font {
+      font-size: 36px;
+      font-weight: normal;
+      line-height: 1.11;
+      letter-spacing: 4px;
+      text-align: right;
+      color: #4f4a58; }
+    .md-avg-per-post .f-right .min-max span {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 1;
+      letter-spacing: 1px;
+      text-align: right;
+      color: #4f4a58; }
+  .md-avg-per-post .min-max {
+    margin-top: 10px; }
+    .md-avg-per-post .min-max p {
+      font-weight: bold; }
+      .md-avg-per-post .min-max p span {
+        display: inline-block;
+        margin: 0 0px 0 10px; }
+
+.fas.fas-arrow-dw {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  background: url(../img/ic-arrow-dw.png) no-repeat center center; }
+
+.fas.fas-arrow-up {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  background: url(../img/ic-arrow-up.png) no-repeat center center; }

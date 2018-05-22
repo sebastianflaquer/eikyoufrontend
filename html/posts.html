@@ -92,7 +92,7 @@
         <div class="main-cont">
 
 
-            <div class="filter-sidebar">
+            <div class="filter-sidebar" style="display:none;">
                 <div class="hd">
                     <p>FILTER BY</p>
                     <a href="#" class="ico-close"></a>
@@ -331,239 +331,292 @@
                 </div>
             </div>
 
+            <div class="inner-page-content">
+                <div class="row">
 
+                    <div class="col-sm-3 col-md-3" style="display:none;">
+                        <ul class="md-sidebar-menu">
+                            <li><a class="active" href="#">General Statistics</a></li>
+                            <li><a href="#">Content Type and Engagement</a></li>
+                            <li><a href="#">Compare Brands</a></li>
+                            <li><a href="#">Engagement by Day and Time</a></li>
+                        </ul>
+                    </div>
 
+                    <div class="col-sm-12 col-md-12">
 
-            <div class="row">
+                        <!-- FACET FILTERS -->
+                        <div class="md-facet-filters">
+                            <div class="bd">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <a href="#" class="btn-filter active">FILTER</a>
+                                        <ul class="filter-list">
 
-                <div class="col-sm-3 col-md-3" style="display:none;">
-                    <ul class="md-sidebar-menu">
-                        <li><a class="active" href="#">General Statistics</a></li>
-                        <li><a href="#">Content Type and Engagement</a></li>
-                        <li><a href="#">Compare Brands</a></li>
-                        <li><a href="#">Engagement by Day and Time</a></li>
-                    </ul>
-                </div>
+                                            <li class="simple"><a href="#" class="active">
+                                                <span>All time</span></a>
+                                            </li>
 
-                <div class="col-sm-12 col-md-12">
+                                            <li class="simple">
+                                                <a href="#" class="active"><span>All content types</span></a>
+                                            </li>
 
-                    <!-- FACET FILTERS -->
-                    <div class="md-facet-filters">
-                        <div class="bd">
-                            <div class="row">
-                                <div class="col-md-9">
-                                    <a href="#" class="btn-filter active">FILTER</a>
-                                    <ul class="filter-list">
-                                        <li class="simple"><a href="#" class="active">
-                                            <span>All time</span></a>
-                                        </li>
-                                        <li class="simple">
-                                            <a href="#" class="active"><span>All content types</span></a>
-                                        </li>
+                                            <li class="combines-item">
+                                                <a class="text" href="#">
+                                                    <span class="cat">CATEGORY</span>
+                                                    <span class="sub-cat">Video</span>
+                                                </a>
+                                                <a href="#" class="action"></a>
+                                            </li>
 
-                                        <li class="combines-item">
-                                            <a class="text" href="#">
-                                                <span class="cat">CATEGORY</span>
-                                                <span class="sub-cat">Video</span>
-                                            </a>
-                                            <a href="#" class="action"></a>
-                                        </li>
+                                            <li class="combines-item">
+                                                <a class="text" href="#">
+                                                    <span class="cat">INFLUENCER</span>
+                                                    <span class="sub-cat">Huda Kattan</span>
+                                                </a>
+                                                <a href="#" class="action"></a>
+                                            </li>
 
-                                        <li class="combines-item">
-                                            <a class="text" href="#">
-                                                <span class="cat">INFLUENCER</span>
-                                                <span class="sub-cat">Huda Kattan</span>
-                                            </a>
-                                            <a href="#" class="action"></a>
-                                        </li>
+                                            <!--<li class="category btn-group">
+                                                <span class="btn btn-default">Category</span>
+                                                <span class="btn btn-default">Video</span>
+                                                <a href="#" class="btn btn-default active"><span>X</span></a>
+                                            </li>-->
 
-                                        <!--<li class="category btn-group">
-                                            <span class="btn btn-default">Category</span>
-                                            <span class="btn btn-default">Video</span>
-                                            <a href="#" class="btn btn-default active"><span>X</span></a>
-                                        </li>-->
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="sort-by-cont pull-right">
+                                            <span class="title">SORT BY</span>
+                                            <div class="dropdown">
+                                                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                                    Posted date <span class="caret"></span>
+                                                </button>
+                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                                    <li><a href="#">Posted date</a></li>
+                                                    <li><a href="#">Posted date</a></li>
+                                                    <li><a href="#">Posted date</a></li>
+                                                    <li><a href="#">Posted date</a></li>
+                                                </ul>
+                                            </div>
 
-                                    </ul>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="sort-by-cont pull-right">
-                                        <span class="title">SORT BY</span>
-                                        <div class="dropdown">
-                                            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                                Posted date <span class="caret"></span>
-                                            </button>
-                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                                                <li><a href="#">Posted date</a></li>
-                                                <li><a href="#">Posted date</a></li>
-                                                <li><a href="#">Posted date</a></li>
-                                                <li><a href="#">Posted date</a></li>
-                                            </ul>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- END FACET FILTERS -->
+                        <!-- END FACET FILTERS -->
 
-                    <div class="post-list">
-                        <div class="posts-items">
-                            <div>
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <div class="post-items">
-                                            <div class="img">
-                                                <img src="../img/post-img.png" a="">
-                                            </div>
-                                            <div class="data">
-                                                <table class="table-style">
-                                                    <tbody><tr class="alt">
-                                                        <td>Category</td>
-                                                        <td>Video</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Engagement</td>
-                                                        <td>1,13%</td>
-                                                    </tr>
-                                                    <tr class="alt">
-                                                        <td>Likes</td>
-                                                        <td>542</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Comments</td>
-                                                        <td>142</td>
-                                                    </tr>
-                                                </tbody></table>
-                                            </div>
-                                            <div class="data-alt">
-                                                <table>
-                                                    <tbody><tr class="alt">
-                                                        <td>Day</td>
-                                                        <td>Wed, Dec 27, 2017</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Time</td>
-                                                        <td>8:28 AM Early morning</td>
-                                                    </tr>
-                                                </tbody></table>
-                                            </div>
+                        <div class="md-colors-multi-rows full-margin">
+                            <div class="multi-row green">
+                                <div class="md-big-single-num">
+                                    <h3>56</h3>
+                                    <p>Posts</p>
+                                </div>
+                            </div>
+                            <div  class="multi-row blue">
+
+                                <div class="md-avg-per-post">
+
+                                    <div class="f-left">
+                                        <p class="title">AVG. ENGAGEMENT PER POST<i class="fas fa-question-circle"></i></p>
+                                    </div>
+
+                                    <div class="f-right">
+                                        <p class="l-font">0.92%</p>
+                                        <div class="min-max">
+                                            <p><span>1.10% Max <i class="fas fas-arrow-up"></i></span><span>0.10% Min <i class="fas fas-arrow-dw"></i></span></p>
                                         </div>
                                     </div>
-                                    <div class="col-md-3">
-                                        <div class="post-items">
-                                            <div class="img">
-                                                <img src="../img/post-img-2.png" a="">
-                                            </div>
-                                            <div class="data">
-                                                <table>
-                                                    <tbody><tr class="alt">
-                                                        <td>Category</td>
-                                                        <td>Video</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Engagement</td>
-                                                        <td>1,13%</td>
-                                                    </tr>
-                                                    <tr class="alt">
-                                                        <td>Likes</td>
-                                                        <td>542</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Comments</td>
-                                                        <td>142</td>
-                                                    </tr>
-                                                </tbody></table>
-                                            </div>
-                                            <div class="data-alt">
-                                                <table>
-                                                    <tbody><tr class="alt">
-                                                        <td>Day</td>
-                                                        <td>Wed, Dec 27, 2017</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Time</td>
-                                                        <td>8:28 AM Early morning</td>
-                                                    </tr>
-                                                </tbody></table>
+
+                                </div>
+
+                            </div>
+                            <div  class="multi-row pink two-cols">
+                                <div class="md-block-avg">
+                                    <h3 class="title">AVG. LIKES</h3>
+                                    <div class="col col-1">
+                                        <p class="num">4.53</p>
+                                        <p class="text">Per video</p>
+                                    </div>
+                                    <div class="col col-2">
+                                        <p class="num">7.38</p>
+                                        <p class="text">Per post</p>
+                                    </div>
+                                </div>
+                                <div class="md-block-avg">
+                                    <h3 class="title">AVG. LIKES</h3>
+                                    <div class="col col-1">
+                                        <p class="num">4.53</p>
+                                        <p class="text">Per video</p>
+                                    </div>
+                                    <div class="col col-2">
+                                        <p class="num">7.38</p>
+                                        <p class="text">Per post</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="post-list">
+                            <div class="posts-items">
+                                <div>
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="post-items">
+                                                <div class="img">
+                                                    <img src="../img/post-img.png" a="">
+                                                </div>
+                                                <div class="data">
+                                                    <table class="table-style">
+                                                        <tbody><tr class="alt">
+                                                            <td>Category</td>
+                                                            <td>Video</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Engagement</td>
+                                                            <td>1,13%</td>
+                                                        </tr>
+                                                        <tr class="alt">
+                                                            <td>Likes</td>
+                                                            <td>542</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Comments</td>
+                                                            <td>142</td>
+                                                        </tr>
+                                                    </tbody></table>
+                                                </div>
+                                                <div class="data-alt">
+                                                    <table>
+                                                        <tbody><tr class="alt">
+                                                            <td>Day</td>
+                                                            <td>Wed, Dec 27, 2017</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Time</td>
+                                                            <td>8:28 AM Early morning</td>
+                                                        </tr>
+                                                    </tbody></table>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <div class="post-items">
-                                            <div class="img">
-                                                <img src="../img/post-img.png" a="">
-                                            </div>
-                                            <div class="data">
-                                                <table>
-                                                    <tbody><tr class="alt">
-                                                        <td>Category</td>
-                                                        <td>Video</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Engagement</td>
-                                                        <td>1,13%</td>
-                                                    </tr>
-                                                    <tr class="alt">
-                                                        <td>Likes</td>
-                                                        <td>542</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Comments</td>
-                                                        <td>142</td>
-                                                    </tr>
-                                                </tbody></table>
-                                            </div>
-                                            <div class="data-alt">
-                                                <table>
-                                                    <tbody><tr class="alt">
-                                                        <td>Day</td>
-                                                        <td>Wed, Dec 27, 2017</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Time</td>
-                                                        <td>8:28 AM Early morning</td>
-                                                    </tr>
-                                                </tbody></table>
+                                        <div class="col-md-3">
+                                            <div class="post-items">
+                                                <div class="img">
+                                                    <img src="../img/post-img-2.png" a="">
+                                                </div>
+                                                <div class="data">
+                                                    <table>
+                                                        <tbody><tr class="alt">
+                                                            <td>Category</td>
+                                                            <td>Video</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Engagement</td>
+                                                            <td>1,13%</td>
+                                                        </tr>
+                                                        <tr class="alt">
+                                                            <td>Likes</td>
+                                                            <td>542</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Comments</td>
+                                                            <td>142</td>
+                                                        </tr>
+                                                    </tbody></table>
+                                                </div>
+                                                <div class="data-alt">
+                                                    <table>
+                                                        <tbody><tr class="alt">
+                                                            <td>Day</td>
+                                                            <td>Wed, Dec 27, 2017</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Time</td>
+                                                            <td>8:28 AM Early morning</td>
+                                                        </tr>
+                                                    </tbody></table>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <div class="post-items">
-                                            <div class="img">
-                                                <img src="../img/post-img.png" a="">
+                                        <div class="col-md-3">
+                                            <div class="post-items">
+                                                <div class="img">
+                                                    <img src="../img/post-img.png" a="">
+                                                </div>
+                                                <div class="data">
+                                                    <table>
+                                                        <tbody><tr class="alt">
+                                                            <td>Category</td>
+                                                            <td>Video</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Engagement</td>
+                                                            <td>1,13%</td>
+                                                        </tr>
+                                                        <tr class="alt">
+                                                            <td>Likes</td>
+                                                            <td>542</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Comments</td>
+                                                            <td>142</td>
+                                                        </tr>
+                                                    </tbody></table>
+                                                </div>
+                                                <div class="data-alt">
+                                                    <table>
+                                                        <tbody><tr class="alt">
+                                                            <td>Day</td>
+                                                            <td>Wed, Dec 27, 2017</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Time</td>
+                                                            <td>8:28 AM Early morning</td>
+                                                        </tr>
+                                                    </tbody></table>
+                                                </div>
                                             </div>
-                                            <div class="data">
-                                                <table class="table-style">
-                                                    <tbody><tr class="alt">
-                                                        <td>Category</td>
-                                                        <td>Video</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Engagement</td>
-                                                        <td>1,13%</td>
-                                                    </tr>
-                                                    <tr class="alt">
-                                                        <td>Likes</td>
-                                                        <td>542</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Comments</td>
-                                                        <td>142</td>
-                                                    </tr>
-                                                </tbody></table>
-                                            </div>
-                                            <div class="data-alt">
-                                                <table>
-                                                    <tbody><tr class="alt">
-                                                        <td>Day</td>
-                                                        <td>Wed, Dec 27, 2017</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Time</td>
-                                                        <td>8:28 AM Early morning</td>
-                                                    </tr>
-                                                </tbody></table>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="post-items">
+                                                <div class="img">
+                                                    <img src="../img/post-img.png" a="">
+                                                </div>
+                                                <div class="data">
+                                                    <table class="table-style">
+                                                        <tbody><tr class="alt">
+                                                            <td>Category</td>
+                                                            <td>Video</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Engagement</td>
+                                                            <td>1,13%</td>
+                                                        </tr>
+                                                        <tr class="alt">
+                                                            <td>Likes</td>
+                                                            <td>542</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Comments</td>
+                                                            <td>142</td>
+                                                        </tr>
+                                                    </tbody></table>
+                                                </div>
+                                                <div class="data-alt">
+                                                    <table>
+                                                        <tbody><tr class="alt">
+                                                            <td>Day</td>
+                                                            <td>Wed, Dec 27, 2017</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Time</td>
+                                                            <td>8:28 AM Early morning</td>
+                                                        </tr>
+                                                    </tbody></table>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -573,6 +626,8 @@
                     </div>
                 </div>
             </div>
+
+
             <a href="#top" class="btn-back-to-top"><i class="fas fa-chevron-circle-up"></i>Back to top</a>
         </div>
     </div>
