@@ -2,7 +2,7 @@
 /* MAIN HEADER                                */
 /**********************************************/
 .main-header .sec-top-head {
-  height: 100px;
+  height: 104px;
   overflow: hidden;
   background-color: #4F4A58; }
 
@@ -27,33 +27,36 @@
 .md-brand-head {
   display: block;
   float: left;
-  padding: 30px;
+  padding: 32px;
   height: 100%; }
   .md-brand-head h2 {
     display: block;
     margin-bottom: 10px;
     color: #fff;
     font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px; }
+    font-weight: normal;
+    margin-bottom: 10px;
+    letter-spacing: 8px; }
   .md-brand-head p {
     color: #fff;
-    font-size: 12px; }
+    font-size: 12px;
+    letter-spacing: 1px; }
 
 /**************************************************/
 .md-top-menu {
   background-color: #45414E;
   float: right;
   height: 100%;
-  padding-left: 30px; }
+  padding-left: 24px; }
   .md-top-menu ul li {
     float: left;
     padding: 20px;
     float: left;
-    padding: 40px 25px; }
+    padding: 40px 24px;
+    letter-spacing: 3.8px; }
     .md-top-menu ul li a {
       color: #fff;
-      font-size: 12px; }
+      font-size: 10px; }
 
 /**************************************************/
 .sec-main-menu {
@@ -66,9 +69,10 @@
     display: inline-block; }
     .md-primary-menu li a {
       display: block;
-      padding: 15px 25px;
+      padding: 16px 32px;
       color: #1D1628;
-      font-size: 15px; }
+      font-size: 12px;
+      letter-spacing: 3px; }
       .md-primary-menu li a.active {
         font-weight: bold; }
 
@@ -87,8 +91,9 @@
 .md-sub-menu li a {
   display: block;
   color: #1D1628;
-  font-size: 15px;
-  padding: 15px 25px; }
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding: 16px 32px; }
 
 .md-sub-menu li a.active,
 .md-sub-menu li a:hover {

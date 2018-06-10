@@ -1,4 +1,16 @@
+@mixin small-titles {
+    font-size: 10px;
+    line-height: 1.6;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 16px;
+}
 
+@mixin sm-descript {
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 1px;
+}
 /******************************************************/
 .main-cont{
     border-top: 1px solid #F2F1F3;
@@ -21,7 +33,7 @@
         h2{
             text-align: center;
             font-size: 15px;
-            letter-spacing: 4px;
+            letter-spacing: 5px;
         }
     }
 }
@@ -32,11 +44,12 @@
         border-bottom: 1px solid #D6D8DE;
         a{
             display: block;
-            padding: 12px 0;
+            padding: 16px 0;
             color:#1D1628;
             font-size: 14px;
+
             &.active{
-                padding-left: 15px;
+                padding-left: 16px;
                 font-weight: bold;
                 background: url("/web/statics/images/ic-arrow-selected.png") no-repeat left center;
             }
@@ -63,31 +76,37 @@
     text-align: center;
     padding: 40px 0 60px 0;
     h3{
-        font-size: 58px;
-        margin-bottom: 10px;
+        font-size: 48px;
+        margin-bottom: 8px;
         font-family: 'proxima_nova_ltthin';
+        letter-spacing: 5px;
     }
     p{
         font-size: 17px;
+        letter-spacing: 1px;
+        margin-left: 8px;
     }
+    
     .fas{
         display: inline-block;
         width: 16px;
         height: 16px;
-        margin-right: 5px;
+        margin-right: 4px;
         position: relative;
         top: 2px;
         &.fas-follow{
-            background: url("/web/statics/images/ic-followers.png") no-repeat center center;
+
+            background: url("../img/ic-followers.svg") no-repeat center center;
         }
         &.fas-post{
-            background: url("/web/statics/images/ic-post.png") no-repeat center center;
+            background: url("/web/statics/images/ic-post.svg") no-repeat center center;
         }
         &.fas-likes{
-            background: url("/web/statics/images/ic-heart.png") no-repeat center center;
+            background: url("/web/statics/images/ic-heart.svg") no-repeat center center;
         }
     }
 }
+
 
 /***************************************************************/
 /* TAB MENU                                                    */
@@ -273,6 +292,20 @@
 .sec-user-group,
 .sec-most-post{
     padding: 30px;
+    .time-day {
+        font-family: 'proxima_nova_ltsemibold';
+        font-size: 16px;
+        line-height: 1;
+        letter-spacing: 1px;
+        
+    }
+    .sm-time {
+        font-size: 10px;
+        line-height: 1.6;
+        letter-spacing: 0.5px;
+        
+    }
+
 }
 
 .sec-group{
@@ -289,6 +322,7 @@
     }
     .top{
         padding-bottom: 25px;
+
     }
     .btm{
         padding: 20px 20px 0 20px;
@@ -297,7 +331,9 @@
     .fot{
         padding-top: 15px;
     }
+
 }
+
 
 
 .sec-avg-group{
@@ -308,8 +344,10 @@
         .f-left{
             .title{
                 text-align: left;
-                font-size: 12px;
-                line-height: 140%;
+                font-size: 10px;
+                line-height: 1.6;
+                letter-spacing: 3px;
+
                 i{
                     margin-left: 5px;
 
@@ -323,6 +361,13 @@
             text-align: right;
             float: left;
             width: 55%;
+
+        }
+        .l-font{
+            letter-spacing: 4px;
+            font-size: 36px;
+            font-weight: normal;
+
         }
         p{
 
@@ -332,11 +377,14 @@
         }
         .min-max{
             margin-top: 10px;
+            float: right;
             p{
-                font-weight: bold;
+                font-family: 'proxima_nova_ltsemibold';
+                font-size: 16px;
+                letter-spacing: 1px;
                 span{
                     display: inline-block;
-                    margin: 0 10px;
+                    margin: 0 8px;
                 }
                 .min{
 
@@ -377,15 +425,15 @@
             }
             h3{
                 margin-bottom: 30px;
-                font-size: 13px;
             }
             .col-1{
-                padding: 0 10px;
+                padding: 4px 8px;
                 border-right: 1px solid #D2DEDE;
             }
             .col-2{
-                padding: 0 10px;
+                padding: 0 4px;
             }
+
         }
     }
     .fot{
@@ -396,6 +444,8 @@
 .more-info{
   margin: auto;
   text-align: center;
+  font-size: 12px;
+  font-family: 'proxima_nova_ltsemibold';
   a{
     display:block;
     color: #1D1628;
@@ -410,29 +460,44 @@
 
 
 .sec-user-group{
-    width: 25%;
+    width: 30%;
     background-color: #DDE6ED;
     .md-block-data{
         text-align: center;
         .title{
-            margin-bottom: 15px;
-            font-size: 12px;
+            @include  small-titles();
+            // margin-bottom: 15px;
+            // line-height: 1.6;
+            // font-size: 10px;
+            // letter-spacing: 3px;
         }
         .col-1.full-col{
-
+            .sm-description {
+                @include sm-descript();
+            }
+            
+            
         }
+
         .xxs-font{
             margin-top: 5px;
-            line-height: 140%;
+            line-height: 1.33;
+            letter-spacing: 1px;
+            font-size: 12px;
         }
         .xs-font.bold{
             margin-bottom: 5px;
+            font-size: 16px;
+            line-height: 1;
+            letter-spacing: 2px;
+            font-family: 'proxima_nova_ltsemibold';
+
         }
     }
 }
 
 .sec-most-post{
-    width: 35%;
+    width: 30%;
     background-color: #F4F6F8;
     .md-block-data{
         text-align: center;
@@ -443,8 +508,9 @@
         }
     }
     .title{
-        font-size: 12px;
-        margin-bottom: 30px;
+        @include  small-titles();
+        // font-size: 12px;
+        // margin-bottom: 30px;
     }
     .btm{
         padding-top: 30px;
@@ -453,6 +519,10 @@
 
 
 .md-block-data{
+    .title{
+        @include small-titles();
+    }
+
     h3{
 
     }

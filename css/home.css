@@ -18,18 +18,18 @@
     .md-mu .hd h2 {
       text-align: center;
       font-size: 15px;
-      letter-spacing: 4px; }
+      letter-spacing: 5px; }
 
 /********************************************************/
 .md-sidebar-menu li {
   border-bottom: 1px solid #D6D8DE; }
   .md-sidebar-menu li a {
     display: block;
-    padding: 12px 0;
+    padding: 16px 0;
     color: #1D1628;
     font-size: 14px; }
     .md-sidebar-menu li a.active {
-      padding-left: 15px;
+      padding-left: 16px;
       font-weight: bold;
       background: url("/web/statics/images/ic-arrow-selected.png") no-repeat left center; }
 
@@ -48,24 +48,27 @@
   text-align: center;
   padding: 40px 0 60px 0; }
   .md-big-num h3 {
-    font-size: 58px;
-    margin-bottom: 10px;
-    font-family: 'proxima_nova_ltthin'; }
+    font-size: 48px;
+    margin-bottom: 8px;
+    font-family: 'proxima_nova_ltthin';
+    letter-spacing: 5px; }
   .md-big-num p {
-    font-size: 17px; }
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-left: 8px; }
   .md-big-num .fas {
     display: inline-block;
     width: 16px;
     height: 16px;
-    margin-right: 5px;
+    margin-right: 4px;
     position: relative;
     top: 2px; }
     .md-big-num .fas.fas-follow {
-      background: url("/web/statics/images/ic-followers.png") no-repeat center center; }
+      background: url("../img/ic-followers.svg") no-repeat center center; }
     .md-big-num .fas.fas-post {
-      background: url("/web/statics/images/ic-post.png") no-repeat center center; }
+      background: url("/web/statics/images/ic-post.svg") no-repeat center center; }
     .md-big-num .fas.fas-likes {
-      background: url("/web/statics/images/ic-heart.png") no-repeat center center; }
+      background: url("/web/statics/images/ic-heart.svg") no-repeat center center; }
 
 /***************************************************************/
 /* TAB MENU                                                    */
@@ -199,6 +202,19 @@
 .sec-user-group,
 .sec-most-post {
   padding: 30px; }
+  .sec-avg-group .time-day,
+  .sec-user-group .time-day,
+  .sec-most-post .time-day {
+    font-family: 'proxima_nova_ltsemibold';
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 1px; }
+  .sec-avg-group .sm-time,
+  .sec-user-group .sm-time,
+  .sec-most-post .sm-time {
+    font-size: 10px;
+    line-height: 1.6;
+    letter-spacing: 0.5px; }
 
 .sec-group {
   display: block;
@@ -230,21 +246,29 @@
       width: 45%; }
       .sec-avg-group .top .f-left .title {
         text-align: left;
-        font-size: 12px;
-        line-height: 140%; }
+        font-size: 10px;
+        line-height: 1.6;
+        letter-spacing: 3px; }
         .sec-avg-group .top .f-left .title i {
           margin-left: 5px; }
     .sec-avg-group .top .f-right {
       text-align: right;
       float: left;
       width: 55%; }
+    .sec-avg-group .top .l-font {
+      letter-spacing: 4px;
+      font-size: 36px;
+      font-weight: normal; }
     .sec-avg-group .top .min-max {
-      margin-top: 10px; }
+      margin-top: 10px;
+      float: right; }
       .sec-avg-group .top .min-max p {
-        font-weight: bold; }
+        font-family: 'proxima_nova_ltsemibold';
+        font-size: 16px;
+        letter-spacing: 1px; }
         .sec-avg-group .top .min-max p span {
           display: inline-block;
-          margin: 0 10px; }
+          margin: 0 8px; }
   .sec-avg-group .btm {
     padding-top: 0px;
     border-top: 1px solid #D2DEDE;
@@ -263,17 +287,18 @@
       .sec-avg-group .btm .md-block-data:first-child {
         border-right: 1px solid #D2DEDE; }
       .sec-avg-group .btm .md-block-data h3 {
-        margin-bottom: 30px;
-        font-size: 13px; }
+        margin-bottom: 30px; }
       .sec-avg-group .btm .md-block-data .col-1 {
-        padding: 0 10px;
+        padding: 4px 8px;
         border-right: 1px solid #D2DEDE; }
       .sec-avg-group .btm .md-block-data .col-2 {
-        padding: 0 10px; }
+        padding: 0 4px; }
 
 .more-info {
   margin: auto;
-  text-align: center; }
+  text-align: center;
+  font-size: 12px;
+  font-family: 'proxima_nova_ltsemibold'; }
   .more-info a {
     display: block;
     color: #1D1628; }
@@ -284,31 +309,54 @@
     top: 3px; }
 
 .sec-user-group {
-  width: 25%;
+  width: 30%;
   background-color: #DDE6ED; }
   .sec-user-group .md-block-data {
     text-align: center; }
     .sec-user-group .md-block-data .title {
-      margin-bottom: 15px;
-      font-size: 12px; }
+      font-size: 10px;
+      line-height: 1.6;
+      letter-spacing: 3px;
+      text-align: center;
+      margin-bottom: 16px; }
+    .sec-user-group .md-block-data .col-1.full-col .sm-description {
+      font-size: 12px;
+      line-height: 1.33;
+      letter-spacing: 1px; }
     .sec-user-group .md-block-data .xxs-font {
       margin-top: 5px;
-      line-height: 140%; }
+      line-height: 1.33;
+      letter-spacing: 1px;
+      font-size: 12px; }
     .sec-user-group .md-block-data .xs-font.bold {
-      margin-bottom: 5px; }
+      margin-bottom: 5px;
+      font-size: 16px;
+      line-height: 1;
+      letter-spacing: 2px;
+      font-family: 'proxima_nova_ltsemibold'; }
 
 .sec-most-post {
-  width: 35%;
+  width: 30%;
   background-color: #F4F6F8; }
   .sec-most-post .md-block-data {
     text-align: center; }
     .sec-most-post .md-block-data p b {
       font-weight: bold; }
   .sec-most-post .title {
-    font-size: 12px;
-    margin-bottom: 30px; }
+    font-size: 10px;
+    line-height: 1.6;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 16px; }
   .sec-most-post .btm {
     padding-top: 30px; }
+
+.md-block-data .title {
+  font-size: 10px;
+  line-height: 1.6;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-bottom: 16px; }
 
 .md-block-data .col-1 {
   display: inline-table; }

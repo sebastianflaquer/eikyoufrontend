@@ -51,7 +51,9 @@ ul, li {
   text-align: left; }
 
 .xxs-font {
-  font-size: 12px; }
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 1px; }
 
 .xs-font {
   font-size: 19px; }
@@ -60,7 +62,8 @@ ul, li {
   font-size: 22px; }
 
 .xm-font {
-  font-size: 26px; }
+  font-size: 24px;
+  letter-spacing: 2px; }
 
 .m-font {
   font-size: 36px; }
@@ -69,7 +72,9 @@ ul, li {
   font-size: 38px; }
 
 .xl-font {
-  font-size: 50px; }
+  font-weight: normal;
+  font-size: 48px;
+  letter-spacing: 2px; }
 
 .bold {
   font-weight: bold; }
